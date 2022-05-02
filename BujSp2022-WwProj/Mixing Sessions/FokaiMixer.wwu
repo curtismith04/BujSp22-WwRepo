@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DB71C985-2169-40FD-B0F1-CCA3031C216A}" SchemaVersion="103">
+	<MixingSessions>
+		<WorkUnit Name="FokaiMixer" ID="{DB71C985-2169-40FD-B0F1-CCA3031C216A}" PersistMode="Standalone"/>
+	</MixingSessions>
+</WwiseDocument>

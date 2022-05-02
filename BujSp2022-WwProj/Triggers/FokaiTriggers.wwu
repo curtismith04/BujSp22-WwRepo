@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E73E63F9-98EB-4F80-8085-FC0F94646770}" SchemaVersion="103">
+	<Triggers>
+		<WorkUnit Name="FokaiTriggers" ID="{E73E63F9-98EB-4F80-8085-FC0F94646770}" PersistMode="Standalone"/>
+	</Triggers>
+</WwiseDocument>

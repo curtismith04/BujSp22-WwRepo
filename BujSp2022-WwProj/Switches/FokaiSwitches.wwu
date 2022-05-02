@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4033C0A1-F478-4106-9AE6-0AAF95FABFAC}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="FokaiSwitches" ID="{4033C0A1-F478-4106-9AE6-0AAF95FABFAC}" PersistMode="Standalone"/>
+	</Switches>
+</WwiseDocument>

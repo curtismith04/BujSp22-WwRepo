@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1F45C9F3-B7D2-4502-BAEA-C84CCC276A12}" SchemaVersion="103">
+	<MixingSessions>
+		<WorkUnit Name="CurtisMixer" ID="{1F45C9F3-B7D2-4502-BAEA-C84CCC276A12}" PersistMode="Standalone"/>
+	</MixingSessions>
+</WwiseDocument>

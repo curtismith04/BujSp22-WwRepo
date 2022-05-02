@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{99C11E12-C701-4C1A-8BAF-C973874C5F28}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="CurtisRTPCs" ID="{99C11E12-C701-4C1A-8BAF-C973874C5F28}" PersistMode="Standalone"/>
+	</GameParameters>
+</WwiseDocument>

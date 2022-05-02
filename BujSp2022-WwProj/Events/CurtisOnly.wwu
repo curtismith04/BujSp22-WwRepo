@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D9374D6C-9EC1-49EF-A5E5-0BCAD338ED1C}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="CurtisOnly" ID="{D9374D6C-9EC1-49EF-A5E5-0BCAD338ED1C}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E45E5CB3-540D-45A0-B17D-88B7E0AC7B86}" SchemaVersion="103">
+	<Conversions>
+		<WorkUnit Name="FokaiConversions" ID="{E45E5CB3-540D-45A0-B17D-88B7E0AC7B86}" PersistMode="Standalone"/>
+	</Conversions>
+</WwiseDocument>

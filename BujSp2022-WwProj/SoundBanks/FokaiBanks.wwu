@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{04FABFE9-AE48-4F64-952E-B33590D76B5C}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="FokaiBanks" ID="{04FABFE9-AE48-4F64-952E-B33590D76B5C}" PersistMode="Standalone"/>
+	</SoundBanks>
+</WwiseDocument>

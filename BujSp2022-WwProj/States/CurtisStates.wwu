@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{410CA2E7-DA92-497C-A5BA-4534E051B0D2}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="CurtisStates" ID="{410CA2E7-DA92-497C-A5BA-4534E051B0D2}" PersistMode="Standalone"/>
+	</States>
+</WwiseDocument>

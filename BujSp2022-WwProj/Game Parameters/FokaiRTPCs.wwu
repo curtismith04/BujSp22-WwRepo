@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FE54EA1B-565D-401D-9A08-0C1E021A7FF8}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="FokaiRTPCs" ID="{FE54EA1B-565D-401D-9A08-0C1E021A7FF8}" PersistMode="Standalone"/>
+	</GameParameters>
+</WwiseDocument>

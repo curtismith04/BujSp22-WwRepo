@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="FokaiOnly" ID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>

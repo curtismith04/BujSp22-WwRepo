@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{78FB72CE-C6C6-43C1-B9BE-ED27597D0797}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="FokaiStates" ID="{78FB72CE-C6C6-43C1-B9BE-ED27597D0797}" PersistMode="Standalone"/>
+	</States>
+</WwiseDocument>

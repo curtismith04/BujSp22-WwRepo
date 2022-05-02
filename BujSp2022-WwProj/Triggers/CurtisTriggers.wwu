@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{88874532-CB9B-4AC1-986C-D0A7A59DD7A0}" SchemaVersion="103">
+	<Triggers>
+		<WorkUnit Name="CurtisTriggers" ID="{88874532-CB9B-4AC1-986C-D0A7A59DD7A0}" PersistMode="Standalone"/>
+	</Triggers>
+</WwiseDocument>
