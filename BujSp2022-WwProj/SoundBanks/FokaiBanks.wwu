@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{04FABFE9-AE48-4F64-952E-B33590D76B5C}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="FokaiBanks" ID="{04FABFE9-AE48-4F64-952E-B33590D76B5C}" PersistMode="Standalone"/>
+		<WorkUnit Name="FokaiBanks" ID="{04FABFE9-AE48-4F64-952E-B33590D76B5C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="player_bank" ID="{CF665B23-7111-4C0A-85C1-AD5C42117E9C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="player_rocket_fire_event" ID="{A94982B5-B6F3-471C-8530-F04B1675CB7C}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_turret_fire_event" ID="{684745ED-B60F-4893-815A-3548F1C0DE60}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="enemy_bank" ID="{AC65B428-1EA1-4538-BCF1-CBD46A852E75}">
+					<ObjectInclusionList>
+						<ObjectRef Name="enemy_turret_fire_event" ID="{11D09138-682A-470E-8405-52875712DB11}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

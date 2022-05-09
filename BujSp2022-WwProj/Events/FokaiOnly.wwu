@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="FokaiOnly" ID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" PersistMode="Standalone"/>
+		<WorkUnit Name="FokaiOnly" ID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="enemy_events" ID="{7ECC4E9A-C842-4795-A006-2518D84C820B}" ShortID="912844052">
+					<ChildrenList>
+						<Event Name="enemy_turret_fire_event" ID="{11D09138-682A-470E-8405-52875712DB11}">
+							<ChildrenList>
+								<Action Name="" ID="{A52C22B2-9912-4683-BBDE-A739A71F3D49}" ShortID="1049214313">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="enemy_turret_fire" ID="{9E4BEF91-0D44-4D8E-823B-2F482FA30A5A}" WorkUnitID="{591204B0-56EE-4CD7-AFCC-5F83B6240CE1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="player_events" ID="{8939FE3A-DDF5-450C-94F6-C771947BD28C}" ShortID="439727541">
+					<ChildrenList>
+						<Event Name="player_turret_fire_event" ID="{684745ED-B60F-4893-815A-3548F1C0DE60}">
+							<ChildrenList>
+								<Action Name="" ID="{68EB9544-02E7-4296-AB1F-3D783BB4D007}" ShortID="1014644347">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_turret_fire" ID="{524EC5E5-F03D-45E6-802B-D2B733864D69}" WorkUnitID="{591204B0-56EE-4CD7-AFCC-5F83B6240CE1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_rocket_fire_event" ID="{A94982B5-B6F3-471C-8530-F04B1675CB7C}">
+							<ChildrenList>
+								<Action Name="" ID="{8917BA1F-099A-42C5-BA50-3B7AD0CAF4E0}" ShortID="458692856">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_rocket_fire" ID="{F83FA58D-C16D-4F81-9A48-AE862A8E9F75}" WorkUnitID="{591204B0-56EE-4CD7-AFCC-5F83B6240CE1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

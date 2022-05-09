@@ -1,6 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{591204B0-56EE-4CD7-AFCC-5F83B6240CE1}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="FokaiOnly" ID="{591204B0-56EE-4CD7-AFCC-5F83B6240CE1}" PersistMode="Standalone"/>
+		<WorkUnit Name="FokaiOnly" ID="{591204B0-56EE-4CD7-AFCC-5F83B6240CE1}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Player" ID="{420AE384-4B2C-4429-AB63-DEB0892B6858}" ShortID="109977699">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="player_turret_fire" ID="{524EC5E5-F03D-45E6-802B-D2B733864D69}" ShortID="291084290">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="player_turret01" ID="{52737EBF-7F58-4513-8E8C-2952A2ADDD3E}" ShortID="376658427">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_fire01" ID="{C64F18C7-AF3B-4EEF-A798-F5CCFC7AB6BD}">
+											<Language>SFX</Language>
+											<AudioFile>player_fire01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="862418275"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="player_fire01" ID="{C64F18C7-AF3B-4EEF-A798-F5CCFC7AB6BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_turret02" ID="{85BE8FDE-26DB-4B1E-9B90-5BE51B689D36}" ShortID="415489033">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_fire06" ID="{093BB77B-F325-411E-878E-8B816558C10B}">
+											<Language>SFX</Language>
+											<AudioFile>player_fire06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="352646902"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="player_fire06" ID="{093BB77B-F325-411E-878E-8B816558C10B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_turret03" ID="{AAC66E58-9656-4909-8B36-D01C0D10AAF0}" ShortID="329064461">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_fire07" ID="{B51C0733-760F-43C5-9BA1-2A6F0B49782C}">
+											<Language>SFX</Language>
+											<AudioFile>player_fire07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="370049549"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="player_fire07" ID="{B51C0733-760F-43C5-9BA1-2A6F0B49782C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_turret04" ID="{693A3608-EBE6-4E9D-9E23-97BE7D4CABD2}" ShortID="116036656">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_fire09" ID="{83783563-A114-47E6-8BEA-AE474E65AE69}">
+											<Language>SFX</Language>
+											<AudioFile>player_fire09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="876466571"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="player_fire09" ID="{83783563-A114-47E6-8BEA-AE474E65AE69}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="player_rocket_fire" ID="{F83FA58D-C16D-4F81-9A48-AE862A8E9F75}" ShortID="325993298">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="player_rocket" ID="{EDD2B2CC-7CFF-4A93-BB99-6A6DBD131676}" ShortID="550439505">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_rocket_fire01" ID="{8E07BA2C-532F-4661-B1B7-C06DC32D6393}">
+											<Language>SFX</Language>
+											<AudioFile>player_rocket_fire01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="57227068"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="player_rocket_fire01" ID="{8E07BA2C-532F-4661-B1B7-C06DC32D6393}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_rocket_01" ID="{DB4F74C3-E75A-4F9E-8812-7A4C2B96571A}" ShortID="890352088">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_rocket_fire02" ID="{A0C208B9-FAF9-4838-85BD-DBDE7801F741}">
+											<Language>SFX</Language>
+											<AudioFile>player_rocket_fire02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="976526503"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="player_rocket_fire02" ID="{A0C208B9-FAF9-4838-85BD-DBDE7801F741}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_rocket_02" ID="{8AFF6BBD-9CF4-4B17-AE2A-F0D947931B7D}" ShortID="1022737607">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_rocket_fire03" ID="{B2B289F2-FE85-4C99-B15C-BFCC375E4982}">
+											<Language>SFX</Language>
+											<AudioFile>player_rocket_fire03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="822420432"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="player_rocket_fire03" ID="{B2B289F2-FE85-4C99-B15C-BFCC375E4982}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="Enemy" ID="{B33DA0DB-E1D8-4356-9832-F3BCB74D3607}" ShortID="266571163">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Enemy" ID="{3F1F571A-2D37-4B4E-8FA5-746545D1B3F6}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="enemy_turret_fire" ID="{9E4BEF91-0D44-4D8E-823B-2F482FA30A5A}" ShortID="416406585">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="enemy_turret_fire" ID="{01558A5D-5BD7-4F3C-ADDF-DE6217831975}">
+									<Language>SFX</Language>
+									<AudioFile>enemy_turret_fire.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="738841478"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="enemy_turret_fire" ID="{01558A5D-5BD7-4F3C-ADDF-DE6217831975}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

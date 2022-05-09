@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	359472815	player_turret_fire_event			\FokaiOnly\player_events\player_turret_fire_event	
+	3929908509	player_rocket_fire_event			\FokaiOnly\player_events\player_rocket_fire_event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	57227068	player_rocket	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_rocket_fire01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_rocket_fire\player_rocket		384064
+	352646902	player_turret02	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire06_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret02		192064
+	370049549	player_turret03	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire07_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret03		232476
+	822420432	player_rocket_02	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_rocket_fire03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_rocket_fire\player_rocket_02		386040
+	862418275	player_turret01	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret01		201640
+	876466571	player_turret04	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire09_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret04		232476
+	976526503	player_rocket_01	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_rocket_fire02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_rocket_fire\player_rocket_01		384064
+

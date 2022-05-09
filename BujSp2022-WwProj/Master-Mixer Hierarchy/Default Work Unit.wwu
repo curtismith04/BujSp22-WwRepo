@@ -11,6 +11,14 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX" ID="{E073C7BC-0AC3-49CF-A079-24364E294876}">
+							<ChildrenList>
+								<Bus Name="Enemy" ID="{3F1F571A-2D37-4B4E-8FA5-746545D1B3F6}">
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}">
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Music" ID="{D1C7C5C9-6EC7-4E28-A73F-FA2CD2F7BFBF}">
