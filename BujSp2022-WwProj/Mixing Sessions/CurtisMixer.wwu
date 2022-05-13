@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1F45C9F3-B7D2-4502-BAEA-C84CCC276A12}" SchemaVersion="103">
 	<MixingSessions>
-		<WorkUnit Name="CurtisMixer" ID="{1F45C9F3-B7D2-4502-BAEA-C84CCC276A12}" PersistMode="Standalone"/>
+		<WorkUnit Name="CurtisMixer" ID="{1F45C9F3-B7D2-4502-BAEA-C84CCC276A12}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Mix1" ID="{DE2E038D-E3E4-4753-8058-B2A202793B56}">
+					<ObjectList>
+						<ObjectRef Name="Explore" ID="{7FDE8FBF-18CC-408F-BA70-62784FE0DCB0}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
+						<ObjectRef Name="Combat" ID="{A1811571-E12B-4E6A-A0A5-3DA12249F93C}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
+						<ObjectRef Name="Level1" ID="{0624E23A-18E9-43CD-B68F-9C2DFA0F2FAD}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+						<ObjectRef Name="Ambience" ID="{DD580C89-2413-4375-874B-852CD1EE0DAE}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+						<ObjectRef Name="Music" ID="{D1C7C5C9-6EC7-4E28-A73F-FA2CD2F7BFBF}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

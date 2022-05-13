@@ -22,6 +22,97 @@
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Music" ID="{D1C7C5C9-6EC7-4E28-A73F-FA2CD2F7BFBF}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Level1" ID="{0624E23A-18E9-43CD-B68F-9C2DFA0F2FAD}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="8"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="L1_Combat" ID="{90E566AD-E510-4CC2-8131-F14A00BCD5D2}">
+											<ChildrenList>
+												<Bus Name="L1_Drums" ID="{BB95A29F-2D69-4735-9DF7-C48EEAB31D04}">
+													<ReferenceList>
+														<Reference Name="Effect3">
+															<Custom>
+																<Effect Name="Wwise Meter (Custom)" ID="{8443B756-FB9B-4DB0-B43F-FB29164160F2}" ShortID="751345152" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																	<PropertyList>
+																		<Property Name="AttackTime" Type="Real32" Value="0.15"/>
+																		<Property Name="Hold" Type="Real32" Value="1"/>
+																		<Property Name="ReleaseTime" Type="Real32" Value="1"/>
+																	</PropertyList>
+																	<PluginData>
+	<GameParameter Name="rtpc_SC_Lv1_Cmbt" ID="{4AD68612-8D2F-4EDC-B9DD-1108F6FDE018}"/>
+</PluginData>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ObjectLists/>
+												</Bus>
+												<Bus Name="L1_EverythingElse" ID="{58C82096-06E9-4BAB-B7DD-BA620CD3DE85}">
+													<ObjectLists/>
+												</Bus>
+												<Bus Name="L1_Bass" ID="{D96D5925-A254-4632-815A-8865977E7FC6}">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{46137192-E0D9-49AF-AFEC-31F46E38F548}" ShortID="751972296">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="rtpc_SC_Lv1_Cmbt" ID="{4AD68612-8D2F-4EDC-B9DD-1108F6FDE018}" WorkUnitID="{99C11E12-C701-4C1A-8BAF-C973874C5F28}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{8D3B6C66-B32A-454C-9FCC-7C8C4C112620}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-48</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>-16.36642</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log3</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ObjectLists/>
+												</Bus>
+											</ChildrenList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="L1_Explore" ID="{D7A85CEE-FE3B-443D-89C5-ABB5780C8174}">
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Ambience" ID="{DD580C89-2413-4375-874B-852CD1EE0DAE}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
 					</ChildrenList>

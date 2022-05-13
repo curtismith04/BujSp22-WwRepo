@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{410CA2E7-DA92-497C-A5BA-4534E051B0D2}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="CurtisStates" ID="{410CA2E7-DA92-497C-A5BA-4534E051B0D2}" PersistMode="Standalone"/>
+		<WorkUnit Name="CurtisStates" ID="{410CA2E7-DA92-497C-A5BA-4534E051B0D2}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MusicGameplayState" ID="{32C46988-9A89-43A2-A420-07F8C2E14279}">
+					<ChildrenList>
+						<State Name="None" ID="{74415A28-641B-457A-A472-AD237279A941}"/>
+						<State Name="Combat" ID="{5ECA60D3-52A4-4138-8E8B-8A106B5428B4}"/>
+						<State Name="Explore" ID="{40CDB284-4B63-46F9-A59B-90C6E459C94F}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MusicLevelSelectState" ID="{3668F57B-1634-4F22-BC36-046617457E04}">
+					<ChildrenList>
+						<State Name="None" ID="{AE7283B2-17F6-45C9-8F53-07A3605FD899}"/>
+						<State Name="Level1" ID="{31D762D7-F15E-4EDF-9A5F-C8CEDE2075D7}"/>
+						<State Name="Level2" ID="{8BC3E0D6-AA4D-424F-89B0-FE71B3CE7421}"/>
+						<State Name="Level3" ID="{28760C28-C40F-4DA2-A74B-AFE964FDD3A2}"/>
+						<State Name="Level4" ID="{B157FE20-5106-4E80-8517-BD67B3E03079}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{03EE43C4-4FFC-4F8C-8774-17E63D21EF65}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="CurtisSoundcaster" ID="{03EE43C4-4FFC-4F8C-8774-17E63D21EF65}" PersistMode="Standalone"/>
+		<WorkUnit Name="CurtisSoundcaster" ID="{03EE43C4-4FFC-4F8C-8774-17E63D21EF65}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music" ID="{8C12A91F-4C10-4F4B-8733-C4DD591358DE}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Music_Level1" ID="{0FE32C72-CC00-4E6C-83A5-40EAFF5C6F09}" WorkUnitID="{D9374D6C-9EC1-49EF-A5E5-0BCAD338ED1C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Explore" ID="{7FDE8FBF-18CC-408F-BA70-62784FE0DCB0}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Combat" ID="{A1811571-E12B-4E6A-A0A5-3DA12249F93C}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Combat" ID="{5ECA60D3-52A4-4138-8E8B-8A106B5428B4}"/>
+						<CurrentStateRef Name="None" ID="{AE7283B2-17F6-45C9-8F53-07A3605FD899}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

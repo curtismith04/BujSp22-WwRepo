@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{99C11E12-C701-4C1A-8BAF-C973874C5F28}" SchemaVersion="103">
 	<GameParameters>
-		<WorkUnit Name="CurtisRTPCs" ID="{99C11E12-C701-4C1A-8BAF-C973874C5F28}" PersistMode="Standalone"/>
+		<WorkUnit Name="CurtisRTPCs" ID="{99C11E12-C701-4C1A-8BAF-C973874C5F28}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="rtpc_SC_Lv1_Cmbt" ID="{4AD68612-8D2F-4EDC-B9DD-1108F6FDE018}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

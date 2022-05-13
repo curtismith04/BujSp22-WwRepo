@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D9374D6C-9EC1-49EF-A5E5-0BCAD338ED1C}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="CurtisOnly" ID="{D9374D6C-9EC1-49EF-A5E5-0BCAD338ED1C}" PersistMode="Standalone"/>
+		<WorkUnit Name="CurtisOnly" ID="{D9374D6C-9EC1-49EF-A5E5-0BCAD338ED1C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Music_Level1" ID="{0FE32C72-CC00-4E6C-83A5-40EAFF5C6F09}">
+					<ChildrenList>
+						<Action Name="" ID="{33854FCD-8CE0-4151-90A8-67309306B42F}" ShortID="925970585">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbienceLevelSelect" ID="{0AC22DE9-DA29-4E09-B15A-0777E1DA7640}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A8542D2E-F0E0-45D4-A8BB-701268E0224D}" ShortID="978912017">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicLevelSelect" ID="{2AA8FCBE-32C8-4F0A-B7F4-287016ACC270}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D3DF9E68-0482-4102-9029-6256CD2064A9}" ShortID="871286981">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore" ID="{40CDB284-4B63-46F9-A59B-90C6E459C94F}" WorkUnitID="{410CA2E7-DA92-497C-A5BA-4534E051B0D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DDBA0120-FFBA-4F28-A2CE-D38661D1B237}" ShortID="849119953">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level1" ID="{31D762D7-F15E-4EDF-9A5F-C8CEDE2075D7}" WorkUnitID="{410CA2E7-DA92-497C-A5BA-4534E051B0D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9A9E36B7-B77A-4C2C-91AD-F05449DCBAED}" ShortID="40086076">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicLevelSelect" ID="{2AA8FCBE-32C8-4F0A-B7F4-287016ACC270}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9AA6ED79-32FF-4D13-A4FE-E148B0E38F9C}" ShortID="519876629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbienceLevelSelect" ID="{0AC22DE9-DA29-4E09-B15A-0777E1DA7640}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

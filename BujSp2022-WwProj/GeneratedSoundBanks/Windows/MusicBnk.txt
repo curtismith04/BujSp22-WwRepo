@@ -1,0 +1,49 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1718903445	Play_Music_Level1			\CurtisOnly\Play_Music_Level1	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	421049069	MusicGameplayState			\CurtisStates\MusicGameplayState	
+	3656507567	MusicLevelSelectState			\CurtisStates\MusicLevelSelectState	
+
+State	ID	Name	State Group			Notes
+	579523862	Explore	MusicGameplayState			
+	748895195	None	MusicGameplayState			
+	2764240573	Combat	MusicGameplayState			
+	748895195	None	MusicLevelSelectState			
+	2678230379	Level4	MusicLevelSelectState			
+	2678230380	Level3	MusicLevelSelectState			
+	2678230381	Level2	MusicLevelSelectState			
+	2678230382	Level1	MusicLevelSelectState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3944938132	rtpc_SC_Lv1_Cmbt			\CurtisRTPCs\rtpc_SC_Lv1_Cmbt	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1125262053	Blue_Distant_Echoes	Wwise Stereo Delay			
+	1990128658	Room_Medium	Wwise RoomVerb			
+	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4623842	BujSp22_128bpm_4-4_4b_ drums1	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_ drums1_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ drums1		1440064
+	9087838	BujSp22_128bpm_4-4_4b_ drums1	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_ drums3_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ drums1		1440064
+	30253788	BujSp22_128bpm_4-4_4b_ drums1	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_ drums2_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ drums1		1440064
+	35669761	BujSp22_128bpm_4-4_4b_ cello_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_ cello_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ cello_Ps4		2880064
+	35915402	BujSp22_128bpm_4-4_4b_fx_steams	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_fx_steams_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_fx_steams		7200064
+	36349746	BujSp22_128bpm_4-4_4b_ Hats_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_ Hats_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Explore\Explore\BujSp22_128bpm_4-4_4b_ Hats_Ps4		2880064
+	57431371	BujSp22_128bpm_4-4_4b_ drums1	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_ drums4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ drums1		1440064
+	89381621	BujSp22_128bpm_4-4_4b_ Reese_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_ Reese_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ Reese_Ps4		2880064
+	141684177	BujSp22_128bpm_4-4_4b_ keys_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_ keys_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ keys_Ps4		2880064
+	185607406	BujSp22_128bpm_4-4_4b_sax1_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_sax3_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_sax1_Ps4		4320064
+	261663220	BujSp22_128bpm_4-4_4b_ keys_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_keys2_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ keys_Ps4		2880064
+	273922599	BujSp22_128bpm_4-4_4b_ snares_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_ snares_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ snares_Ps4		2880064
+	319369178	BujSp22_128bpm_4-4_4b_sax1_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_sax2_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_sax1_Ps4		2880064
+	405556451	BujSp22_128bpm_4-4_4b_ wDrink_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_ wDrink_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ wDrink_Ps4		2880064
+	421965912	BujSp22_128bpm_4-4_4b_ drink_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_ drink_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ drink_Ps4		2880064
+	473114392	BujSp22_128bpm_4-4_4b_ keys_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_keys3_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ keys_Ps4		2880064
+	562487904	BujSp22_128bpm_4-4_4b_ keys_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_keys4_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ keys_Ps4		2880064
+	612461079	AMBMisc_Ambience Victoria Wind Insects Birds Loop_PSE_SL-FL_kHtgS	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\AMBMisc_Ambience Victoria Wind Insects Birds Loop_PSE_SL-FL_kHtgS_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\AmbienceLevelSelect\Amb_Lvl1\Level1Ambience\AMBMisc_Ambience Victoria Wind Insects Birds Loop_PSE_SL-FL_kHtgS		4447108
+	654866015	BujSp22_128bpm_4-4_4b_sax1_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_sax1_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_sax1_Ps4		2880064
+	730117288	AMBMisc_Created Ambience Airwave Interference Stereo_PSE_SL-FL_Y0wIA	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\AMBMisc_Created Ambience Airwave Interference Stereo_PSE_SL-FL_Y0wIA_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\AmbienceLevelSelect\Amb_Lvl1\Level1Ambience\AMBMisc_Created Ambience Airwave Interference Stereo_PSE_SL-FL_Y0wIA		6155584
+	793952290	AMBRurl_Joshua Tree Desert Wind With Cricket SFX_PSE_CDGEN_29g1p	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\AMBRurl_Joshua Tree Desert Wind With Cricket SFX_PSE_CDGEN_29g1p_BDCFCA32.wem		\Interactive Music Hierarchy\CurtisOnly\AmbienceLevelSelect\Amb_Lvl1\Level1Ambience\AMBRurl_Joshua Tree Desert Wind With Cricket SFX_PSE_CDGEN_29g1p		8801344
+	821119201	BujSp22_128bpm_4-4_4b_ rhythm_Ps4	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\BujSp22_128bpm_4-4_4b_ rhythm_Ps4_D79FB2B7.wem		\Interactive Music Hierarchy\CurtisOnly\MusicLevelSelect\Level1Music\L1-Combat\Combat\BujSp22_128bpm_4-4_4b_ rhythm_Ps4		2880064
+
