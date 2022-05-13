@@ -11,6 +11,36 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX" ID="{E073C7BC-0AC3-49CF-A079-24364E294876}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{B7ACBFCA-1B64-4B21-8986-1DC8BE79855E}" ShortID="755401941">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="rtpcSfxVolume" ID="{ACA9C091-24D2-427B-864D-15EB02110344}" WorkUnitID="{99C11E12-C701-4C1A-8BAF-C973874C5F28}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4C3B2D2B-9827-4B25-A745-04575518835C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
 								<Bus Name="Enemy" ID="{3F1F571A-2D37-4B4E-8FA5-746545D1B3F6}">
 									<ObjectLists/>
@@ -23,6 +53,34 @@
 						</Bus>
 						<Bus Name="Music" ID="{D1C7C5C9-6EC7-4E28-A73F-FA2CD2F7BFBF}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{46898A15-7A96-47AB-B6C3-F02E13949BF0}" ShortID="827315252">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="rtpcMusicVolume" ID="{7ABAC53A-8910-4FC5-9E90-D4353820C6E2}" WorkUnitID="{99C11E12-C701-4C1A-8BAF-C973874C5F28}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A8F876B4-530A-4596-B25D-73104564D4EF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Color" Type="int16" Value="13"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
@@ -79,7 +137,7 @@
 																			</Point>
 																			<Point>
 																				<XPos>-16.36642</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																				<SegmentShape>Log3</SegmentShape>
 																			</Point>
@@ -110,6 +168,46 @@
 										<Property Name="Color" Type="int16" Value="4"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
+									<ChildrenList>
+										<Bus Name="Amb_L1" ID="{821C68D4-739A-4FE6-84FF-B6FAE9C60A8A}">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="Amb_L2" ID="{18E1BFBB-4954-42FE-9602-4905B2A0FDF3}">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Level2" ID="{6B59C8CF-0D6D-47F4-B67F-5D8AC6F007CA}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="L2_Explore" ID="{2CA3E0A4-B9D3-45FC-A82B-1062FBC358E6}">
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="L2_Combat" ID="{483289A8-FDDC-4109-9B15-E3B24C7E2826}">
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>

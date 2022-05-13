@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3369318274	enemy_turret_fire_event			\FokaiOnly\enemy_events\enemy_turret_fire_event	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	738841478	enemy_turret_fire	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\enemy_turret_fire_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Enemy\enemy_turret_fire		384064
+	738841478	enemy_turret_fire	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\enemy_turret_fire_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Enemy\enemy_turret_fire		0
 

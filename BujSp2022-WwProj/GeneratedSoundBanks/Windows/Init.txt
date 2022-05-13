@@ -1,18 +1,24 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	825489254	MusicGameplay			\CurtisSwitches\MusicGameplay	
+
+Switch	ID	Name	Switch Group			Notes
+	579523862	Explore	MusicGameplay			
+	2764240573	Combat	MusicGameplay			
+
 State Group	ID	Name			Wwise Object Path	Notes
-	421049069	MusicGameplayState			\CurtisStates\MusicGameplayState	
 	3656507567	MusicLevelSelectState			\CurtisStates\MusicLevelSelectState	
 
 State	ID	Name	State Group			Notes
-	579523862	Explore	MusicGameplayState			
-	748895195	None	MusicGameplayState			
-	2764240573	Combat	MusicGameplayState			
 	748895195	None	MusicLevelSelectState			
 	2678230379	Level4	MusicLevelSelectState			
 	2678230380	Level3	MusicLevelSelectState			
 	2678230381	Level2	MusicLevelSelectState			
 	2678230382	Level1	MusicLevelSelectState			
+	2791675679	Defeated	MusicLevelSelectState			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	272358683	rtpcSfxVolume			\CurtisRTPCs\rtpcSfxVolume	
+	3943409783	rtpcMusicVolume			\CurtisRTPCs\rtpcMusicVolume	
 	3944938132	rtpc_SC_Lv1_Cmbt			\CurtisRTPCs\rtpc_SC_Lv1_Cmbt	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
@@ -20,9 +26,14 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\Player	
 	1315174916	L1_Explore			\Default Work Unit\Master Audio Bus\Music\Level1\L1_Explore	
+	1682469154	L2_Combat			\Default Work Unit\Master Audio Bus\Music\Level2\L2_Combat	
 	2221530379	L1_Combat			\Default Work Unit\Master Audio Bus\Music\Level1\L1_Combat	
 	2299321487	Enemy			\Default Work Unit\Master Audio Bus\SFX\Enemy	
+	2678230381	Level2			\Default Work Unit\Master Audio Bus\Music\Level2	
 	2678230382	Level1			\Default Work Unit\Master Audio Bus\Music\Level1	
+	3103408599	L2_Explore			\Default Work Unit\Master Audio Bus\Music\Level2\L2_Explore	
+	3340070692	Amb_L2			\Default Work Unit\Master Audio Bus\Music\Ambience\Amb_L2	
+	3340070695	Amb_L1			\Default Work Unit\Master Audio Bus\Music\Ambience\Amb_L1	
 	3617614286	L1_Bass			\Default Work Unit\Master Audio Bus\Music\Level1\L1_Combat\L1_Bass	
 	3716377723	L1_EverythingElse			\Default Work Unit\Master Audio Bus\Music\Level1\L1_Combat\L1_EverythingElse	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

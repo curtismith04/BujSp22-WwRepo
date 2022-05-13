@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8618F59E-4695-4210-AA15-400D566EFC28}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="CurtisSwitches" ID="{8618F59E-4695-4210-AA15-400D566EFC28}" PersistMode="Standalone"/>
+		<WorkUnit Name="CurtisSwitches" ID="{8618F59E-4695-4210-AA15-400D566EFC28}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="MusicGameplay" ID="{B177E835-14CD-49E3-AFD2-39CFA64F97A5}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Combat" ID="{83A3198F-24C0-4BDE-8557-4AB203C37B57}"/>
+						<Switch Name="Explore" ID="{1684898A-1524-4E4F-A7ED-C55AF25A4ACA}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="rtpcVisibleEnemies" ID="{8D3E1406-40BD-48BD-B04D-6BC52D7B38BA}"/>
+						<Curve Name="" ID="{34A5546B-2302-417D-8895-A0A58EDCD8CF}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>2</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

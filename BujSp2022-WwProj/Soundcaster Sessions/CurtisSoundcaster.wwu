@@ -6,24 +6,56 @@
 				<SoundcasterSession Name="Music" ID="{8C12A91F-4C10-4F4B-8733-C4DD591358DE}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Music_Level1" ID="{0FE32C72-CC00-4E6C-83A5-40EAFF5C6F09}" WorkUnitID="{D9374D6C-9EC1-49EF-A5E5-0BCAD338ED1C}"/>
+							<ObjectRef Name="Play_Music" ID="{0FE32C72-CC00-4E6C-83A5-40EAFF5C6F09}" WorkUnitID="{D9374D6C-9EC1-49EF-A5E5-0BCAD338ED1C}"/>
 							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Explore" ID="{7FDE8FBF-18CC-408F-BA70-62784FE0DCB0}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
-							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Combat" ID="{A1811571-E12B-4E6A-A0A5-3DA12249F93C}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="rtpcVisibleEnemies" ID="{8D3E1406-40BD-48BD-B04D-6BC52D7B38BA}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rtpc_SC_Lv1_Cmbt" ID="{4AD68612-8D2F-4EDC-B9DD-1108F6FDE018}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Combat" ID="{5ECA60D3-52A4-4138-8E8B-8A106B5428B4}"/>
 						<CurrentStateRef Name="None" ID="{AE7283B2-17F6-45C9-8F53-07A3605FD899}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Explore" ID="{1684898A-1524-4E4F-A7ED-C55AF25A4ACA}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Level1" ID="{5D8CFD7C-5803-428E-AF7E-05A725F7E1FA}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="rtpcSfxVolume" ID="{ACA9C091-24D2-427B-864D-15EB02110344}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rtpcVisibleEnemies" ID="{8D3E1406-40BD-48BD-B04D-6BC52D7B38BA}"/>
+							<Value>4</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rtpc_SC_Lv1_Cmbt" ID="{4AD68612-8D2F-4EDC-B9DD-1108F6FDE018}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rtpcMusicVolume" ID="{7ABAC53A-8910-4FC5-9E90-D4353820C6E2}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Defeated" ID="{ACF655CB-4262-46F2-BDC1-B236138FED6B}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Explore" ID="{1684898A-1524-4E4F-A7ED-C55AF25A4ACA}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

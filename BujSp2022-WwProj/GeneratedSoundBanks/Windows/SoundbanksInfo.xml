@@ -11,114 +11,297 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="779930579">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1601747581">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<GameParameters>
+				<GameParameter Id="272358683" Name="rtpcSfxVolume" ObjectPath="\Game Parameters\CurtisRTPCs\rtpcSfxVolume" GUID="{ACA9C091-24D2-427B-864D-15EB02110344}"/>
+				<GameParameter Id="3943409783" Name="rtpcMusicVolume" ObjectPath="\Game Parameters\CurtisRTPCs\rtpcMusicVolume" GUID="{7ABAC53A-8910-4FC5-9E90-D4353820C6E2}"/>
 				<GameParameter Id="3944938132" Name="rtpc_SC_Lv1_Cmbt" ObjectPath="\Game Parameters\CurtisRTPCs\rtpc_SC_Lv1_Cmbt" GUID="{4AD68612-8D2F-4EDC-B9DD-1108F6FDE018}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2768864193" GUID="{7F9BF77F-AFB8-4DD1-8F9E-73D0AFB89035}" Language="SFX" Hash="1550199120">
+		<SoundBank Id="2768864193" GUID="{7F9BF77F-AFB8-4DD1-8F9E-73D0AFB89035}" Language="SFX" Hash="3235484808">
 			<ObjectPath>\SoundBanks\CurtisBanks\MusicBnk</ObjectPath>
 			<ShortName>MusicBnk</ShortName>
 			<Path>MusicBnk.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1718903445" Name="Play_Music_Level1" ObjectPath="\Events\CurtisOnly\Play_Music_Level1" GUID="{0FE32C72-CC00-4E6C-83A5-40EAFF5C6F09}" DurationType="Infinite">
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\CurtisOnly\Play_Music" GUID="{0FE32C72-CC00-4E6C-83A5-40EAFF5C6F09}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="4623842" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_ drums1.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_ drums1_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_ drums1_0BA09294.wem</Path>
 						</File>
 						<File Id="9087838" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_ drums3.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_ drums3_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_ drums3_0BA09294.wem</Path>
+						</File>
+						<File Id="9301003" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ L2_Cello.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ L2_Cello_0BA09294.wem</Path>
 						</File>
 						<File Id="30253788" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_ drums2.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_ drums2_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_ drums2_0BA09294.wem</Path>
+						</File>
+						<File Id="33551605" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ Dft_coughs.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ Dft_coughs_0BA09294.wem</Path>
 						</File>
 						<File Id="35669761" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_ cello_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_ cello_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_ cello_Ps4_0BA09294.wem</Path>
 						</File>
 						<File Id="35915402" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_fx_steams.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_fx_steams_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_fx_steams_0BA09294.wem</Path>
 						</File>
 						<File Id="36349746" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_ Hats_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_ Hats_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_ Hats_Ps4_0BA09294.wem</Path>
+						</File>
+						<File Id="41265182" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ Dft_PnkFx.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ Dft_PnkFx_0BA09294.wem</Path>
+						</File>
+						<File Id="49622422" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ Dft_PnkFx.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ Dft_PnkFx_0BA09294.wem</Path>
 						</File>
 						<File Id="57431371" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_ drums4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_ drums4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_ drums4_0BA09294.wem</Path>
 						</File>
 						<File Id="89381621" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_ Reese_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_ Reese_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_ Reese_Ps4_0BA09294.wem</Path>
+						</File>
+						<File Id="101826151" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ Dft_Bass.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ Dft_Bass_0BA09294.wem</Path>
+						</File>
+						<File Id="140234435" Language="SFX">
+							<ShortName>Block2\BujSp22_128_4-4_Ps2_ L2_Stomp.wav</ShortName>
+							<Path>SFX\Block2\BujSp22_128_4-4_Ps2_ L2_Stomp_0BA09294.wem</Path>
 						</File>
 						<File Id="141684177" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_ keys_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_ keys_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_ keys_Ps4_0BA09294.wem</Path>
+						</File>
+						<File Id="145825099" Language="SFX">
+							<ShortName>Block4\BujSp22_128_4-4_Ps2_ L2_Cello.wav</ShortName>
+							<Path>SFX\Block4\BujSp22_128_4-4_Ps2_ L2_Cello_0BA09294.wem</Path>
+						</File>
+						<File Id="157227202" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ Dft_springs.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ Dft_springs_0BA09294.wem</Path>
 						</File>
 						<File Id="185607406" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_sax3_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_sax3_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_sax3_Ps4_0BA09294.wem</Path>
+						</File>
+						<File Id="195978277" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ L2_Reese.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ L2_Reese_0BA09294.wem</Path>
+						</File>
+						<File Id="197727545" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ Dft_Debris.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ Dft_Debris_0BA09294.wem</Path>
 						</File>
 						<File Id="261663220" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_keys2_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_keys2_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_keys2_Ps4_0BA09294.wem</Path>
+						</File>
+						<File Id="267641564" Language="SFX">
+							<ShortName>Block4\BujSp22_128_4-4_Ps2_ L2_Reese.wav</ShortName>
+							<Path>SFX\Block4\BujSp22_128_4-4_Ps2_ L2_Reese_0BA09294.wem</Path>
 						</File>
 						<File Id="273922599" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_ snares_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_ snares_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_ snares_Ps4_0BA09294.wem</Path>
+						</File>
+						<File Id="279723614" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ Dft_FHorn.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ Dft_FHorn_0BA09294.wem</Path>
+						</File>
+						<File Id="284747442" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ Dft_Viola.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ Dft_Viola_0BA09294.wem</Path>
 						</File>
 						<File Id="319369178" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_sax2_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_sax2_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_sax2_Ps4_0BA09294.wem</Path>
+						</File>
+						<File Id="324473859" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ L2_Drums.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ L2_Drums_0BA09294.wem</Path>
+						</File>
+						<File Id="357913393" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ Dft_Cello.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ Dft_Cello_0BA09294.wem</Path>
+						</File>
+						<File Id="369591700" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ L2_Stomp.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ L2_Stomp_0BA09294.wem</Path>
+						</File>
+						<File Id="394268167" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ Dft_Keys.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ Dft_Keys_0BA09294.wem</Path>
 						</File>
 						<File Id="405556451" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_ wDrink_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_ wDrink_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_ wDrink_Ps4_0BA09294.wem</Path>
 						</File>
 						<File Id="421965912" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_ drink_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_ drink_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_ drink_Ps4_0BA09294.wem</Path>
+						</File>
+						<File Id="461409573" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ Dft_coughs.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ Dft_coughs_0BA09294.wem</Path>
 						</File>
 						<File Id="473114392" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_keys3_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_keys3_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_keys3_Ps4_0BA09294.wem</Path>
+						</File>
+						<File Id="510056320" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ Dft_springs.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ Dft_springs_0BA09294.wem</Path>
+						</File>
+						<File Id="515426158" Language="SFX">
+							<ShortName>Block2\BujSp22_128_4-4_Ps2_ L2_Keys.wav</ShortName>
+							<Path>SFX\Block2\BujSp22_128_4-4_Ps2_ L2_Keys_0BA09294.wem</Path>
+						</File>
+						<File Id="532093966" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ Dft_Keys.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ Dft_Keys_0BA09294.wem</Path>
+						</File>
+						<File Id="547773539" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ Dft_Bass.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ Dft_Bass_0BA09294.wem</Path>
 						</File>
 						<File Id="562487904" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_keys4_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_keys4_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_keys4_Ps4_0BA09294.wem</Path>
+						</File>
+						<File Id="569436256" Language="SFX">
+							<ShortName>Block2\BujSp22_128_4-4_Ps2_ L2_Drums.wav</ShortName>
+							<Path>SFX\Block2\BujSp22_128_4-4_Ps2_ L2_Drums_0BA09294.wem</Path>
 						</File>
 						<File Id="612461079" Language="SFX">
 							<ShortName>AMBMisc_Ambience Victoria Wind Insects Birds Loop_PSE_SL-FL_kHtgS.wav</ShortName>
-							<Path>SFX\AMBMisc_Ambience Victoria Wind Insects Birds Loop_PSE_SL-FL_kHtgS_D79FB2B7.wem</Path>
+							<Path>SFX\AMBMisc_Ambience Victoria Wind Insects Birds Loop_PSE_SL-FL_kHtgS_0BA09294.wem</Path>
+						</File>
+						<File Id="617323883" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ Dft_Vio.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ Dft_Vio_0BA09294.wem</Path>
+						</File>
+						<File Id="621878451" Language="SFX">
+							<ShortName>Block4\BujSp22_128_4-4_Ps2_ L2_Drums.wav</ShortName>
+							<Path>SFX\Block4\BujSp22_128_4-4_Ps2_ L2_Drums_0BA09294.wem</Path>
+						</File>
+						<File Id="632234167" Language="SFX">
+							<ShortName>Block2\BujSp22_128_4-4_Ps2_ L2_Reese.wav</ShortName>
+							<Path>SFX\Block2\BujSp22_128_4-4_Ps2_ L2_Reese_0BA09294.wem</Path>
+						</File>
+						<File Id="645044212" Language="SFX">
+							<ShortName>Block4\BujSp22_128_4-4_Ps2_ L2_Keys.wav</ShortName>
+							<Path>SFX\Block4\BujSp22_128_4-4_Ps2_ L2_Keys_0BA09294.wem</Path>
+						</File>
+						<File Id="653873279" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ Dft_Fire.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ Dft_Fire_0BA09294.wem</Path>
 						</File>
 						<File Id="654866015" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_sax1_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_sax1_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_sax1_Ps4_0BA09294.wem</Path>
+						</File>
+						<File Id="659576043" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ L2_Stomp.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ L2_Stomp_0BA09294.wem</Path>
+						</File>
+						<File Id="716354870" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ Dft_Fire.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ Dft_Fire_0BA09294.wem</Path>
+						</File>
+						<File Id="720323608" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ Dft_Vio.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ Dft_Vio_0BA09294.wem</Path>
+						</File>
+						<File Id="721712647" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ Dft_Viola.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ Dft_Viola_0BA09294.wem</Path>
 						</File>
 						<File Id="730117288" Language="SFX">
 							<ShortName>AMBMisc_Created Ambience Airwave Interference Stereo_PSE_SL-FL_Y0wIA.wav</ShortName>
-							<Path>SFX\AMBMisc_Created Ambience Airwave Interference Stereo_PSE_SL-FL_Y0wIA_D79FB2B7.wem</Path>
+							<Path>SFX\AMBMisc_Created Ambience Airwave Interference Stereo_PSE_SL-FL_Y0wIA_0BA09294.wem</Path>
 						</File>
 						<File Id="793952290" Language="SFX">
 							<ShortName>AMBRurl_Joshua Tree Desert Wind With Cricket SFX_PSE_CDGEN_29g1p.wav</ShortName>
-							<Path>SFX\AMBRurl_Joshua Tree Desert Wind With Cricket SFX_PSE_CDGEN_29g1p_BDCFCA32.wem</Path>
+							<Path>SFX\AMBRurl_Joshua Tree Desert Wind With Cricket SFX_PSE_CDGEN_29g1p_7F908411.wem</Path>
+						</File>
+						<File Id="802711537" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ Dft_Debris.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ Dft_Debris_0BA09294.wem</Path>
+						</File>
+						<File Id="816723866" Language="SFX">
+							<ShortName>Block4\BujSp22_128_4-4_Ps2_ L2_Arp.wav</ShortName>
+							<Path>SFX\Block4\BujSp22_128_4-4_Ps2_ L2_Arp_0BA09294.wem</Path>
 						</File>
 						<File Id="821119201" Language="SFX">
 							<ShortName>BujSp22_128bpm_4-4_4b_ rhythm_Ps4.wav</ShortName>
-							<Path>SFX\BujSp22_128bpm_4-4_4b_ rhythm_Ps4_D79FB2B7.wem</Path>
+							<Path>SFX\BujSp22_128bpm_4-4_4b_ rhythm_Ps4_0BA09294.wem</Path>
+						</File>
+						<File Id="847220569" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ Dft_Impact.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ Dft_Impact_0BA09294.wem</Path>
+						</File>
+						<File Id="848593135" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ L2_Arp.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ L2_Arp_0BA09294.wem</Path>
+						</File>
+						<File Id="919277235" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ L2_Keys.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ L2_Keys_0BA09294.wem</Path>
+						</File>
+						<File Id="925042717" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ Dft_Cello.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ Dft_Cello_0BA09294.wem</Path>
+						</File>
+						<File Id="932280468" Language="SFX">
+							<ShortName>Block4\BujSp22_128_4-4_Ps2_ L2_Stomp.wav</ShortName>
+							<Path>SFX\Block4\BujSp22_128_4-4_Ps2_ L2_Stomp_0BA09294.wem</Path>
+						</File>
+						<File Id="934278420" Language="SFX">
+							<ShortName>Block3\BujSp22_128_4-4_Ps2_ Dft_FHorn.wav</ShortName>
+							<Path>SFX\Block3\BujSp22_128_4-4_Ps2_ Dft_FHorn_0BA09294.wem</Path>
+						</File>
+						<File Id="1039747729" Language="SFX">
+							<ShortName>BujSp22_128_4-4_Ps2_ L2_Reese.wav</ShortName>
+							<Path>SFX\BujSp22_128_4-4_Ps2_ L2_Reese_0BA09294.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{31D762D7-F15E-4EDF-9A5F-C8CEDE2075D7}">
 							<Children>
-								<SwitchContainer SwitchValue="{5ECA60D3-52A4-4138-8E8B-8A106B5428B4}">
+								<SwitchContainer SwitchValue="{B177E835-14CD-49E3-AFD2-39CFA64F97A5}">
+									<Media>
+										<File Id="35669761"/>
+										<File Id="35915402"/>
+										<File Id="36349746"/>
+										<File Id="89381621"/>
+										<File Id="141684177"/>
+										<File Id="185607406"/>
+										<File Id="261663220"/>
+										<File Id="273922599"/>
+										<File Id="319369178"/>
+										<File Id="405556451"/>
+										<File Id="473114392"/>
+										<File Id="562487904"/>
+										<File Id="654866015"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{83A3198F-24C0-4BDE-8557-4AB203C37B57}">
 									<Media>
 										<File Id="4623842"/>
 										<File Id="9087838"/>
@@ -140,41 +323,7 @@
 										<File Id="821119201"/>
 									</Media>
 								</SwitchContainer>
-								<SwitchContainer SwitchValue="{40CDB284-4B63-46F9-A59B-90C6E459C94F}">
-									<Media>
-										<File Id="35669761"/>
-										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{74415A28-641B-457A-A472-AD237279A941}">
-									<Media>
-										<File Id="35669761"/>
-										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{32C46988-9A89-43A2-A420-07F8C2E14279}">
+								<SwitchContainer SwitchValue="{1684898A-1524-4E4F-A7ED-C55AF25A4ACA}">
 									<Media>
 										<File Id="35669761"/>
 										<File Id="35915402"/>
@@ -195,7 +344,24 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{3668F57B-1634-4F22-BC36-046617457E04}">
 							<Children>
-								<SwitchContainer SwitchValue="{5ECA60D3-52A4-4138-8E8B-8A106B5428B4}">
+								<SwitchContainer SwitchValue="{B177E835-14CD-49E3-AFD2-39CFA64F97A5}">
+									<Media>
+										<File Id="35669761"/>
+										<File Id="35915402"/>
+										<File Id="36349746"/>
+										<File Id="89381621"/>
+										<File Id="141684177"/>
+										<File Id="185607406"/>
+										<File Id="261663220"/>
+										<File Id="273922599"/>
+										<File Id="319369178"/>
+										<File Id="405556451"/>
+										<File Id="473114392"/>
+										<File Id="562487904"/>
+										<File Id="654866015"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{83A3198F-24C0-4BDE-8557-4AB203C37B57}">
 									<Media>
 										<File Id="4623842"/>
 										<File Id="9087838"/>
@@ -217,41 +383,7 @@
 										<File Id="821119201"/>
 									</Media>
 								</SwitchContainer>
-								<SwitchContainer SwitchValue="{40CDB284-4B63-46F9-A59B-90C6E459C94F}">
-									<Media>
-										<File Id="35669761"/>
-										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{74415A28-641B-457A-A472-AD237279A941}">
-									<Media>
-										<File Id="35669761"/>
-										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{32C46988-9A89-43A2-A420-07F8C2E14279}">
+								<SwitchContainer SwitchValue="{1684898A-1524-4E4F-A7ED-C55AF25A4ACA}">
 									<Media>
 										<File Id="35669761"/>
 										<File Id="35915402"/>
@@ -272,7 +404,24 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{AE7283B2-17F6-45C9-8F53-07A3605FD899}">
 							<Children>
-								<SwitchContainer SwitchValue="{5ECA60D3-52A4-4138-8E8B-8A106B5428B4}">
+								<SwitchContainer SwitchValue="{B177E835-14CD-49E3-AFD2-39CFA64F97A5}">
+									<Media>
+										<File Id="35669761"/>
+										<File Id="35915402"/>
+										<File Id="36349746"/>
+										<File Id="89381621"/>
+										<File Id="141684177"/>
+										<File Id="185607406"/>
+										<File Id="261663220"/>
+										<File Id="273922599"/>
+										<File Id="319369178"/>
+										<File Id="405556451"/>
+										<File Id="473114392"/>
+										<File Id="562487904"/>
+										<File Id="654866015"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{83A3198F-24C0-4BDE-8557-4AB203C37B57}">
 									<Media>
 										<File Id="4623842"/>
 										<File Id="9087838"/>
@@ -294,41 +443,7 @@
 										<File Id="821119201"/>
 									</Media>
 								</SwitchContainer>
-								<SwitchContainer SwitchValue="{40CDB284-4B63-46F9-A59B-90C6E459C94F}">
-									<Media>
-										<File Id="35669761"/>
-										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{74415A28-641B-457A-A472-AD237279A941}">
-									<Media>
-										<File Id="35669761"/>
-										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{32C46988-9A89-43A2-A420-07F8C2E14279}">
+								<SwitchContainer SwitchValue="{1684898A-1524-4E4F-A7ED-C55AF25A4ACA}">
 									<Media>
 										<File Id="35669761"/>
 										<File Id="35915402"/>
@@ -349,84 +464,63 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{8BC3E0D6-AA4D-424F-89B0-FE71B3CE7421}">
 							<Children>
-								<SwitchContainer SwitchValue="{5ECA60D3-52A4-4138-8E8B-8A106B5428B4}">
+								<SwitchContainer SwitchValue="{B177E835-14CD-49E3-AFD2-39CFA64F97A5}">
 									<Media>
-										<File Id="4623842"/>
-										<File Id="9087838"/>
-										<File Id="30253788"/>
-										<File Id="35669761"/>
 										<File Id="35915402"/>
-										<File Id="57431371"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="421965912"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
-										<File Id="821119201"/>
+										<File Id="369591700"/>
+										<File Id="1039747729"/>
 									</Media>
 								</SwitchContainer>
-								<SwitchContainer SwitchValue="{40CDB284-4B63-46F9-A59B-90C6E459C94F}">
+								<SwitchContainer SwitchValue="{83A3198F-24C0-4BDE-8557-4AB203C37B57}">
 									<Media>
-										<File Id="35669761"/>
+										<File Id="9301003"/>
 										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
+										<File Id="140234435"/>
+										<File Id="145825099"/>
+										<File Id="195978277"/>
+										<File Id="267641564"/>
+										<File Id="324473859"/>
+										<File Id="515426158"/>
+										<File Id="569436256"/>
+										<File Id="621878451"/>
+										<File Id="632234167"/>
+										<File Id="645044212"/>
+										<File Id="659576043"/>
+										<File Id="816723866"/>
+										<File Id="848593135"/>
+										<File Id="919277235"/>
+										<File Id="932280468"/>
 									</Media>
 								</SwitchContainer>
-								<SwitchContainer SwitchValue="{74415A28-641B-457A-A472-AD237279A941}">
+								<SwitchContainer SwitchValue="{1684898A-1524-4E4F-A7ED-C55AF25A4ACA}">
 									<Media>
-										<File Id="35669761"/>
 										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{32C46988-9A89-43A2-A420-07F8C2E14279}">
-									<Media>
-										<File Id="35669761"/>
-										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
+										<File Id="369591700"/>
+										<File Id="1039747729"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{28760C28-C40F-4DA2-A74B-AFE964FDD3A2}">
 							<Children>
-								<SwitchContainer SwitchValue="{5ECA60D3-52A4-4138-8E8B-8A106B5428B4}">
+								<SwitchContainer SwitchValue="{B177E835-14CD-49E3-AFD2-39CFA64F97A5}">
+									<Media>
+										<File Id="35669761"/>
+										<File Id="35915402"/>
+										<File Id="36349746"/>
+										<File Id="89381621"/>
+										<File Id="141684177"/>
+										<File Id="185607406"/>
+										<File Id="261663220"/>
+										<File Id="273922599"/>
+										<File Id="319369178"/>
+										<File Id="405556451"/>
+										<File Id="473114392"/>
+										<File Id="562487904"/>
+										<File Id="654866015"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{83A3198F-24C0-4BDE-8557-4AB203C37B57}">
 									<Media>
 										<File Id="4623842"/>
 										<File Id="9087838"/>
@@ -448,41 +542,7 @@
 										<File Id="821119201"/>
 									</Media>
 								</SwitchContainer>
-								<SwitchContainer SwitchValue="{40CDB284-4B63-46F9-A59B-90C6E459C94F}">
-									<Media>
-										<File Id="35669761"/>
-										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{74415A28-641B-457A-A472-AD237279A941}">
-									<Media>
-										<File Id="35669761"/>
-										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{32C46988-9A89-43A2-A420-07F8C2E14279}">
+								<SwitchContainer SwitchValue="{1684898A-1524-4E4F-A7ED-C55AF25A4ACA}">
 									<Media>
 										<File Id="35669761"/>
 										<File Id="35915402"/>
@@ -503,7 +563,24 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{B157FE20-5106-4E80-8517-BD67B3E03079}">
 							<Children>
-								<SwitchContainer SwitchValue="{5ECA60D3-52A4-4138-8E8B-8A106B5428B4}">
+								<SwitchContainer SwitchValue="{B177E835-14CD-49E3-AFD2-39CFA64F97A5}">
+									<Media>
+										<File Id="35669761"/>
+										<File Id="35915402"/>
+										<File Id="36349746"/>
+										<File Id="89381621"/>
+										<File Id="141684177"/>
+										<File Id="185607406"/>
+										<File Id="261663220"/>
+										<File Id="273922599"/>
+										<File Id="319369178"/>
+										<File Id="405556451"/>
+										<File Id="473114392"/>
+										<File Id="562487904"/>
+										<File Id="654866015"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{83A3198F-24C0-4BDE-8557-4AB203C37B57}">
 									<Media>
 										<File Id="4623842"/>
 										<File Id="9087838"/>
@@ -525,41 +602,7 @@
 										<File Id="821119201"/>
 									</Media>
 								</SwitchContainer>
-								<SwitchContainer SwitchValue="{40CDB284-4B63-46F9-A59B-90C6E459C94F}">
-									<Media>
-										<File Id="35669761"/>
-										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{74415A28-641B-457A-A472-AD237279A941}">
-									<Media>
-										<File Id="35669761"/>
-										<File Id="35915402"/>
-										<File Id="36349746"/>
-										<File Id="89381621"/>
-										<File Id="141684177"/>
-										<File Id="185607406"/>
-										<File Id="261663220"/>
-										<File Id="273922599"/>
-										<File Id="319369178"/>
-										<File Id="405556451"/>
-										<File Id="473114392"/>
-										<File Id="562487904"/>
-										<File Id="654866015"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{32C46988-9A89-43A2-A420-07F8C2E14279}">
+								<SwitchContainer SwitchValue="{1684898A-1524-4E4F-A7ED-C55AF25A4ACA}">
 									<Media>
 										<File Id="35669761"/>
 										<File Id="35915402"/>
@@ -577,6 +620,33 @@
 									</Media>
 								</SwitchContainer>
 							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{ACF655CB-4262-46F2-BDC1-B236138FED6B}">
+							<Media>
+								<File Id="33551605"/>
+								<File Id="41265182"/>
+								<File Id="49622422"/>
+								<File Id="101826151"/>
+								<File Id="157227202"/>
+								<File Id="197727545"/>
+								<File Id="279723614"/>
+								<File Id="284747442"/>
+								<File Id="357913393"/>
+								<File Id="394268167"/>
+								<File Id="461409573"/>
+								<File Id="510056320"/>
+								<File Id="532093966"/>
+								<File Id="547773539"/>
+								<File Id="617323883"/>
+								<File Id="653873279"/>
+								<File Id="716354870"/>
+								<File Id="720323608"/>
+								<File Id="721712647"/>
+								<File Id="802711537"/>
+								<File Id="847220569"/>
+								<File Id="925042717"/>
+								<File Id="934278420"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{31D762D7-F15E-4EDF-9A5F-C8CEDE2075D7}">
 							<Media>
@@ -621,29 +691,13 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
-					<ActionSetState>
-						<ActionSetStateEntry Id="579523862" Name="Explore" ObjectPath="\States\CurtisStates\MusicGameplayState\Explore" GUID="{40CDB284-4B63-46F9-A59B-90C6E459C94F}"/>
-						<ActionSetStateEntry Id="2678230382" Name="Level1" ObjectPath="\States\CurtisStates\MusicLevelSelectState\Level1" GUID="{31D762D7-F15E-4EDF-9A5F-C8CEDE2075D7}"/>
-					</ActionSetState>
 				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="3944938132" Name="rtpc_SC_Lv1_Cmbt" ObjectPath="\Game Parameters\CurtisRTPCs\rtpc_SC_Lv1_Cmbt" GUID="{4AD68612-8D2F-4EDC-B9DD-1108F6FDE018}"/>
+				<GameParameter Id="4090455194" Name="rtpcVisibleEnemies" ObjectPath="\Game Parameters\CurtisRTPCs\rtpcVisibleEnemies" GUID="{8D3E1406-40BD-48BD-B04D-6BC52D7B38BA}"/>
 			</GameParameters>
 			<StateGroups>
-				<StateGroup Id="421049069" Name="MusicGameplayState" ObjectPath="\States\CurtisStates\MusicGameplayState" GUID="{32C46988-9A89-43A2-A420-07F8C2E14279}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\CurtisStates\MusicGameplayState\None" GUID="{74415A28-641B-457A-A472-AD237279A941}"/>
-						<State Id="2764240573" Name="Combat" ObjectPath="\States\CurtisStates\MusicGameplayState\Combat" GUID="{5ECA60D3-52A4-4138-8E8B-8A106B5428B4}"/>
-						<State Id="579523862" Name="Explore" ObjectPath="\States\CurtisStates\MusicGameplayState\Explore" GUID="{40CDB284-4B63-46F9-A59B-90C6E459C94F}"/>
-					</States>
-				</StateGroup>
-				<StateGroup Id="579523862" Name="Explore" ObjectPath="\States\CurtisStates\MusicGameplayState\Explore" GUID="{40CDB284-4B63-46F9-A59B-90C6E459C94F}">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="2678230382" Name="Level1" ObjectPath="\States\CurtisStates\MusicLevelSelectState\Level1" GUID="{31D762D7-F15E-4EDF-9A5F-C8CEDE2075D7}">
-					<States/>
-				</StateGroup>
 				<StateGroup Id="3656507567" Name="MusicLevelSelectState" ObjectPath="\States\CurtisStates\MusicLevelSelectState" GUID="{3668F57B-1634-4F22-BC36-046617457E04}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\CurtisStates\MusicLevelSelectState\None" GUID="{AE7283B2-17F6-45C9-8F53-07A3605FD899}"/>
@@ -651,9 +705,18 @@
 						<State Id="2678230381" Name="Level2" ObjectPath="\States\CurtisStates\MusicLevelSelectState\Level2" GUID="{8BC3E0D6-AA4D-424F-89B0-FE71B3CE7421}"/>
 						<State Id="2678230380" Name="Level3" ObjectPath="\States\CurtisStates\MusicLevelSelectState\Level3" GUID="{28760C28-C40F-4DA2-A74B-AFE964FDD3A2}"/>
 						<State Id="2678230379" Name="Level4" ObjectPath="\States\CurtisStates\MusicLevelSelectState\Level4" GUID="{B157FE20-5106-4E80-8517-BD67B3E03079}"/>
+						<State Id="2791675679" Name="Defeated" ObjectPath="\States\CurtisStates\MusicLevelSelectState\Defeated" GUID="{ACF655CB-4262-46F2-BDC1-B236138FED6B}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="825489254" Name="MusicGameplay" ObjectPath="\Switches\CurtisSwitches\MusicGameplay" GUID="{B177E835-14CD-49E3-AFD2-39CFA64F97A5}">
+					<Switches>
+						<Switch Id="2764240573" Name="Combat" ObjectPath="\Switches\CurtisSwitches\MusicGameplay\Combat" GUID="{83A3198F-24C0-4BDE-8557-4AB203C37B57}"/>
+						<Switch Id="579523862" Name="Explore" ObjectPath="\Switches\CurtisSwitches\MusicGameplay\Explore" GUID="{1684898A-1524-4E4F-A7ED-C55AF25A4ACA}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="3137872592" GUID="{AC65B428-1EA1-4538-BCF1-CBD46A852E75}" Language="SFX">
 			<ObjectPath>\SoundBanks\FokaiBanks\enemy_bank</ObjectPath>

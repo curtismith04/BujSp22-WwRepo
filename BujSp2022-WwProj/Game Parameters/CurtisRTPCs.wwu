@@ -10,6 +10,21 @@
 						<Property Name="Min" Type="Real64" Value="-48"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="rtpcVisibleEnemies" ID="{8D3E1406-40BD-48BD-B04D-6BC52D7B38BA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="rtpcMusicVolume" ID="{7ABAC53A-8910-4FC5-9E90-D4353820C6E2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="rtpcSfxVolume" ID="{ACA9C091-24D2-427B-864D-15EB02110344}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

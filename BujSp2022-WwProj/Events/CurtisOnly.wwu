@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="CurtisOnly" ID="{D9374D6C-9EC1-49EF-A5E5-0BCAD338ED1C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Music_Level1" ID="{0FE32C72-CC00-4E6C-83A5-40EAFF5C6F09}">
+				<Event Name="Play_Music" ID="{0FE32C72-CC00-4E6C-83A5-40EAFF5C6F09}">
 					<ChildrenList>
 						<Action Name="" ID="{33854FCD-8CE0-4151-90A8-67309306B42F}" ShortID="925970585">
 							<PropertyList>
@@ -22,26 +22,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MusicLevelSelect" ID="{2AA8FCBE-32C8-4F0A-B7F4-287016ACC270}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{D3DF9E68-0482-4102-9029-6256CD2064A9}" ShortID="871286981">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Explore" ID="{40CDB284-4B63-46F9-A59B-90C6E459C94F}" WorkUnitID="{410CA2E7-DA92-497C-A5BA-4534E051B0D2}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{DDBA0120-FFBA-4F28-A2CE-D38661D1B237}" ShortID="849119953">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Level1" ID="{31D762D7-F15E-4EDF-9A5F-C8CEDE2075D7}" WorkUnitID="{410CA2E7-DA92-497C-A5BA-4534E051B0D2}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

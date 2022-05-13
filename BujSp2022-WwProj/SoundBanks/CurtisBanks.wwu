@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="MusicBnk" ID="{7F9BF77F-AFB8-4DD1-8F9E-73D0AFB89035}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Music_Level1" ID="{0FE32C72-CC00-4E6C-83A5-40EAFF5C6F09}" WorkUnitID="{D9374D6C-9EC1-49EF-A5E5-0BCAD338ED1C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music" ID="{0FE32C72-CC00-4E6C-83A5-40EAFF5C6F09}" WorkUnitID="{D9374D6C-9EC1-49EF-A5E5-0BCAD338ED1C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
