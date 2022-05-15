@@ -485,7 +485,19 @@
 											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="1kBullets_player_death_01" ID="{3A4275E3-39A1-4A9C-98EB-26BC0EC283A9}">
+											<Language>SFX</Language>
+											<AudioFile>1kBullets_player_death_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="909194773"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
 									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="1kBullets_player_death_01" ID="{3A4275E3-39A1-4A9C-98EB-26BC0EC283A9}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="player_death__02" ID="{A2AF3E89-7104-4C2E-880B-92444825C4A6}" ShortID="26220465">
 									<ReferenceList>
@@ -496,7 +508,19 @@
 											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="1kBullets_player_death_02" ID="{990ECE97-00FC-4A54-86E4-66B3639BB8DF}">
+											<Language>SFX</Language>
+											<AudioFile>1kBullets_player_death_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="351957692"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
 									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="1kBullets_player_death_02" ID="{990ECE97-00FC-4A54-86E4-66B3639BB8DF}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="player_death__03" ID="{3E9A90CB-07E0-418B-A64B-F7506741CF75}" ShortID="84642446">
 									<ReferenceList>
@@ -507,7 +531,19 @@
 											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="1kBullets_player_death_03" ID="{10FBEF28-6869-4AB0-A7C4-D5ACFE28A2CA}">
+											<Language>SFX</Language>
+											<AudioFile>1kBullets_player_death_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="134653452"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
 									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="1kBullets_player_death_03" ID="{10FBEF28-6869-4AB0-A7C4-D5ACFE28A2CA}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 							<ObjectLists/>

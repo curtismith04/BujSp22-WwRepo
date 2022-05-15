@@ -5,6 +5,7 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="A:\Library\Games\1000 Bullets\"/>
 				<Property Name="Event Action List\{11D09138-682A-470E-8405-52875712DB11}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4226B549-66B3-4078-BE23-EBC5F88776B3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5AD5BE05-91D8-4D7F-9F0D-A96C544AFB40}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{684745ED-B60F-4893-815A-3548F1C0DE60}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8DF56685-8881-43CA-A613-6790B18AF397}\x64_Expand States" Type="string" Value=""/>
@@ -22,7 +23,7 @@
 				</Property>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="5OTs7vk330O6ydYJaamTIw=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="KLRlrKEeOEW88cvUaoUudSNbZs8RcQpMhcGtXEIRfpw="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="KLRlrKEeOEW88cvUaoUudSNbZs8RcQpMhcGtXEIRfpxLV+6SD4z3RKe/RXHKOd66"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
