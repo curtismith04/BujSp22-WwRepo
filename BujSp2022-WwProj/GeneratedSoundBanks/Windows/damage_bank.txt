@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3837212363	damage_event			\FokaiOnly\damage_event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	100337479	damage__02	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_damage_02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\damage\damage__02		384064
+	200135157	damage__05	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_damage_04v2_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\damage\damage__05		384064
+	257651816	damage__04	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_damage_04_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\damage\damage__04		352820
+	800462066	damage__06	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_damage_04v3_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\damage\damage__06		322720
+	868864601	damage__01	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_damage_01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\damage\damage__01		394316
+	968495951	damage__03	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_damage_03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\damage\damage__03		396312
+

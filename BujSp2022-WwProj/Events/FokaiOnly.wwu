@@ -16,6 +16,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="enemy_death_event" ID="{8DF56685-8881-43CA-A613-6790B18AF397}">
+							<ChildrenList>
+								<Action Name="" ID="{AD0D627C-B9BD-4CF5-8B3D-B87F1832FDD7}" ShortID="750051990">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="enemy_death" ID="{FBB2ECB9-FAD9-446F-9738-27E321140E2B}" WorkUnitID="{591204B0-56EE-4CD7-AFCC-5F83B6240CE1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="player_events" ID="{8939FE3A-DDF5-450C-94F6-C771947BD28C}" ShortID="439727541">
@@ -42,8 +53,30 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="player_ammo_indicator_event" ID="{5AD5BE05-91D8-4D7F-9F0D-A96C544AFB40}">
+							<ChildrenList>
+								<Action Name="" ID="{01773DB9-27A5-4AFE-9215-0C62897B045F}" ShortID="464080061">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_ammo_indicator" ID="{DE18B62E-78D8-4BA0-8FBC-4C70503AF97F}" WorkUnitID="{591204B0-56EE-4CD7-AFCC-5F83B6240CE1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="damage_event" ID="{9C26E32B-0B06-4CB9-961D-7E495B345288}">
+					<ChildrenList>
+						<Action Name="" ID="{BD1ED5EF-6FED-4CC0-868F-0F6DE005B0A9}" ShortID="791420328">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="damage" ID="{350023CD-67DC-43D7-99E5-877C577BE40D}" WorkUnitID="{591204B0-56EE-4CD7-AFCC-5F83B6240CE1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

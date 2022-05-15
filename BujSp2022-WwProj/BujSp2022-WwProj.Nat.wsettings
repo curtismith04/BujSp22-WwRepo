@@ -5,7 +5,10 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="A:\Library\Games\1000 Bullets\"/>
 				<Property Name="Event Action List\{11D09138-682A-470E-8405-52875712DB11}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5AD5BE05-91D8-4D7F-9F0D-A96C544AFB40}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{684745ED-B60F-4893-815A-3548F1C0DE60}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8DF56685-8881-43CA-A613-6790B18AF397}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9C26E32B-0B06-4CB9-961D-7E495B345288}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A94982B5-B6F3-471C-8530-F04B1675CB7C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -19,13 +22,16 @@
 				</Property>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="5OTs7vk330O6ydYJaamTIw=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="I1tmzxFxCkyFwa1cQhF+nCi0ZayhHjhFvPHL1GqFLnU="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="KLRlrKEeOEW88cvUaoUudSNbZs8RcQpMhcGtXEIRfpw="/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
+				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
+				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="True"/>
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value=""/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
