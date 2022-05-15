@@ -9,8 +9,9 @@
 						<State Name="Level1" ID="{31D762D7-F15E-4EDF-9A5F-C8CEDE2075D7}"/>
 						<State Name="Level2" ID="{8BC3E0D6-AA4D-424F-89B0-FE71B3CE7421}"/>
 						<State Name="Level3" ID="{28760C28-C40F-4DA2-A74B-AFE964FDD3A2}"/>
-						<State Name="Level4" ID="{B157FE20-5106-4E80-8517-BD67B3E03079}"/>
+						<State Name="Boss" ID="{B157FE20-5106-4E80-8517-BD67B3E03079}"/>
 						<State Name="Defeated" ID="{ACF655CB-4262-46F2-BDC1-B236138FED6B}"/>
+						<State Name="Survival" ID="{24D05C2B-8FF4-470B-8ADC-F0956931FE89}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

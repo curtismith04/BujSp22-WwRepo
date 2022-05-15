@@ -51,7 +51,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Defeated" ID="{ACF655CB-4262-46F2-BDC1-B236138FED6B}"/>
+						<CurrentStateRef Name="Level2" ID="{8BC3E0D6-AA4D-424F-89B0-FE71B3CE7421}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Explore" ID="{1684898A-1524-4E4F-A7ED-C55AF25A4ACA}"/>

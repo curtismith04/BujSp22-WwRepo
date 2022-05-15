@@ -9592,7 +9592,7 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Level4" ID="{B157FE20-5106-4E80-8517-BD67B3E03079}"/>
+								<PathElementRef Name="Boss" ID="{B157FE20-5106-4E80-8517-BD67B3E03079}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Level1Music" ID="{E61DCDD7-5C35-41C2-B467-E269070A8471}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}" Platform="Linked"/>
@@ -12252,7 +12252,7 @@
 								<PathElementRef Name="Level2" ID="{8BC3E0D6-AA4D-424F-89B0-FE71B3CE7421}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Amb_Lvl1" ID="{8302626D-21EE-4CC3-828F-4AF43182B3B7}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}" Platform="Linked"/>
+								<AudioNodeRef Name="Amb_Lvl2" ID="{6B7F812F-1153-425D-831C-8BE32F23AC4D}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -12265,7 +12265,7 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Level4" ID="{B157FE20-5106-4E80-8517-BD67B3E03079}"/>
+								<PathElementRef Name="Boss" ID="{B157FE20-5106-4E80-8517-BD67B3E03079}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Amb_Lvl1" ID="{8302626D-21EE-4CC3-828F-4AF43182B3B7}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}" Platform="Linked"/>

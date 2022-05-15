@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1601747581">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="145999991">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -21,7 +21,7 @@
 				<GameParameter Id="3944938132" Name="rtpc_SC_Lv1_Cmbt" ObjectPath="\Game Parameters\CurtisRTPCs\rtpc_SC_Lv1_Cmbt" GUID="{4AD68612-8D2F-4EDC-B9DD-1108F6FDE018}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2768864193" GUID="{7F9BF77F-AFB8-4DD1-8F9E-73D0AFB89035}" Language="SFX" Hash="3235484808">
+		<SoundBank Id="2768864193" GUID="{7F9BF77F-AFB8-4DD1-8F9E-73D0AFB89035}" Language="SFX" Hash="1559202956">
 			<ObjectPath>\SoundBanks\CurtisBanks\MusicBnk</ObjectPath>
 			<ShortName>MusicBnk</ShortName>
 			<Path>MusicBnk.bnk</Path>
@@ -718,7 +718,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3137872592" GUID="{AC65B428-1EA1-4538-BCF1-CBD46A852E75}" Language="SFX">
+		<SoundBank Id="3137872592" GUID="{AC65B428-1EA1-4538-BCF1-CBD46A852E75}" Language="SFX" Hash="6612546">
 			<ObjectPath>\SoundBanks\FokaiBanks\enemy_bank</ObjectPath>
 			<ShortName>enemy_bank</ShortName>
 			<Path>enemy_bank.bnk</Path>
@@ -733,7 +733,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3820128371" GUID="{CF665B23-7111-4C0A-85C1-AD5C42117E9C}" Language="SFX">
+		<SoundBank Id="3820128371" GUID="{CF665B23-7111-4C0A-85C1-AD5C42117E9C}" Language="SFX" Hash="3745745478">
 			<ObjectPath>\SoundBanks\FokaiBanks\player_bank</ObjectPath>
 			<ShortName>player_bank</ShortName>
 			<Path>player_bank.bnk</Path>
