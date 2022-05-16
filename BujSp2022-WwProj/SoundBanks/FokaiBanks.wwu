@@ -8,7 +8,9 @@
 						<ObjectRef Name="player_death_event" ID="{4226B549-66B3-4078-BE23-EBC5F88776B3}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="player_rocket_fire_event" ID="{A94982B5-B6F3-471C-8530-F04B1675CB7C}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="player_turret_fire_event" ID="{684745ED-B60F-4893-815A-3548F1C0DE60}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_damage_event" ID="{9C26E32B-0B06-4CB9-961D-7E495B345288}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="player_ammo_indicator_event" ID="{5AD5BE05-91D8-4D7F-9F0D-A96C544AFB40}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_bullet_impact_event" ID="{D466174C-DD81-4F19-A954-83D4DA832D0A}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -17,13 +19,6 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="enemy_death_event" ID="{8DF56685-8881-43CA-A613-6790B18AF397}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="enemy_turret_fire_event" ID="{11D09138-682A-470E-8405-52875712DB11}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="damage_bank" ID="{92EE574B-8C0F-44F7-A7BF-4571CA39DEBA}">
-					<ObjectInclusionList>
-						<ObjectRef Name="damage_event" ID="{9C26E32B-0B06-4CB9-961D-7E495B345288}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{87BB5ED6-784F-4860-B350-A77E4C4A6505}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="A:\Library\Games\1000 Bullets\"/>
+				<Property Name="Event Action List\{0FE32C72-CC00-4E6C-83A5-40EAFF5C6F09}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{11D09138-682A-470E-8405-52875712DB11}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4226B549-66B3-4078-BE23-EBC5F88776B3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5AD5BE05-91D8-4D7F-9F0D-A96C544AFB40}\x64_Expand States" Type="string" Value=""/>
@@ -11,6 +12,7 @@
 				<Property Name="Event Action List\{8DF56685-8881-43CA-A613-6790B18AF397}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9C26E32B-0B06-4CB9-961D-7E495B345288}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A94982B5-B6F3-471C-8530-F04B1675CB7C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D466174C-DD81-4F19-A954-83D4DA832D0A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -23,7 +25,8 @@
 				</Property>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="5OTs7vk330O6ydYJaamTIw=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="KLRlrKEeOEW88cvUaoUudSNbZs8RcQpMhcGtXEIRfpxLV+6SD4z3RKe/RXHKOd66"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="KLRlrKEeOEW88cvUaoUudSNbZs8RcQpMhcGtXEIRfpw="/>
+				<Property Name="Interactive Music\x64_{A1811571-E12B-4E6A-A0A5-3DA12249F93C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzCW/GLJLzxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -33,6 +36,12 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{38566E5D-4F65-4693-A1A5-32EC4757FCE0}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{38566E5D-4F65-4693-A1A5-32EC4757FCE0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{BB6E8890-B58F-4B74-AD2D-47D24D31AADE}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{BB6E8890-B58F-4B74-AD2D-47D24D31AADE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{E61DCDD7-5C35-41C2-B467-E269070A8471}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{E61DCDD7-5C35-41C2-B467-E269070A8471}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="True"/>
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value=""/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>

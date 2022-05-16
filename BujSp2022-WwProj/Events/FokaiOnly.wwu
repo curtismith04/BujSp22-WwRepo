@@ -75,19 +75,30 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="player_damage_event" ID="{9C26E32B-0B06-4CB9-961D-7E495B345288}">
+							<ChildrenList>
+								<Action Name="" ID="{BD1ED5EF-6FED-4CC0-868F-0F6DE005B0A9}" ShortID="791420328">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_damage" ID="{350023CD-67DC-43D7-99E5-877C577BE40D}" WorkUnitID="{591204B0-56EE-4CD7-AFCC-5F83B6240CE1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_bullet_impact_event" ID="{D466174C-DD81-4F19-A954-83D4DA832D0A}">
+							<ChildrenList>
+								<Action Name="" ID="{3517472D-D206-40D3-BE8E-D479AD286F80}" ShortID="874070503">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_bullet_impact" ID="{2D904A39-7EF8-46C8-803D-14B5506504EB}" WorkUnitID="{591204B0-56EE-4CD7-AFCC-5F83B6240CE1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="damage_event" ID="{9C26E32B-0B06-4CB9-961D-7E495B345288}">
-					<ChildrenList>
-						<Action Name="" ID="{BD1ED5EF-6FED-4CC0-868F-0F6DE005B0A9}" ShortID="791420328">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="damage" ID="{350023CD-67DC-43D7-99E5-877C577BE40D}" WorkUnitID="{591204B0-56EE-4CD7-AFCC-5F83B6240CE1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
