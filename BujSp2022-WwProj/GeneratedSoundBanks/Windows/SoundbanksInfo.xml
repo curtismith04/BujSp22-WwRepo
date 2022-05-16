@@ -11,41 +11,6 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="81568227" GUID="{92EE574B-8C0F-44F7-A7BF-4571CA39DEBA}" Language="SFX" Hash="4212016801">
-			<ObjectPath>\SoundBanks\FokaiBanks\damage_bank</ObjectPath>
-			<ShortName>damage_bank</ShortName>
-			<Path>damage_bank.bnk</Path>
-			<IncludedEvents>
-				<Event Id="3837212363" Name="damage_event" ObjectPath="\Events\FokaiOnly\damage_event" GUID="{9C26E32B-0B06-4CB9-961D-7E495B345288}" DurationType="OneShot" DurationMin="1.6805" DurationMax="2.063792">
-					<IncludedMemoryFiles>
-						<File Id="100337479" Language="SFX">
-							<ShortName>1kBullets_player_damage_02.wav</ShortName>
-							<Path>SFX\1kBullets_player_damage_02_10C4C929.wem</Path>
-						</File>
-						<File Id="200135157" Language="SFX">
-							<ShortName>1kBullets_player_damage_04v2.wav</ShortName>
-							<Path>SFX\1kBullets_player_damage_04v2_10C4C929.wem</Path>
-						</File>
-						<File Id="257651816" Language="SFX">
-							<ShortName>1kBullets_player_damage_04.wav</ShortName>
-							<Path>SFX\1kBullets_player_damage_04_10C4C929.wem</Path>
-						</File>
-						<File Id="800462066" Language="SFX">
-							<ShortName>1kBullets_player_damage_04v3.wav</ShortName>
-							<Path>SFX\1kBullets_player_damage_04v3_10C4C929.wem</Path>
-						</File>
-						<File Id="868864601" Language="SFX">
-							<ShortName>1kBullets_player_damage_01.wav</ShortName>
-							<Path>SFX\1kBullets_player_damage_01_10C4C929.wem</Path>
-						</File>
-						<File Id="968495951" Language="SFX">
-							<ShortName>1kBullets_player_damage_03.wav</ShortName>
-							<Path>SFX\1kBullets_player_damage_03_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-			</IncludedEvents>
-		</SoundBank>
 		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1582031365">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -762,7 +727,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3137872592" GUID="{AC65B428-1EA1-4538-BCF1-CBD46A852E75}" Language="SFX" Hash="2202573630">
+		<SoundBank Id="3137872592" GUID="{AC65B428-1EA1-4538-BCF1-CBD46A852E75}" Language="SFX" Hash="756892537">
 			<ObjectPath>\SoundBanks\FokaiBanks\enemy_bank</ObjectPath>
 			<ShortName>enemy_bank</ShortName>
 			<Path>enemy_bank.bnk</Path>
@@ -793,7 +758,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3820128371" GUID="{CF665B23-7111-4C0A-85C1-AD5C42117E9C}" Language="SFX" Hash="3155329725">
+		<SoundBank Id="3820128371" GUID="{CF665B23-7111-4C0A-85C1-AD5C42117E9C}" Language="SFX" Hash="2521833809">
 			<ObjectPath>\SoundBanks\FokaiBanks\player_bank</ObjectPath>
 			<ShortName>player_bank</ShortName>
 			<Path>player_bank.bnk</Path>
@@ -803,6 +768,58 @@
 						<File Id="1038746916" Language="SFX">
 							<ShortName>1kBullets_ammo_indicator.wav</ShortName>
 							<Path>SFX\1kBullets_ammo_indicator_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2957355683" Name="player_bullet_impact_event" ObjectPath="\Events\FokaiOnly\player_events\player_bullet_impact_event" GUID="{D466174C-DD81-4F19-A954-83D4DA832D0A}" DurationType="OneShot" DurationMin="0.945708" DurationMax="1.098333">
+					<IncludedMemoryFiles>
+						<File Id="195182388" Language="SFX">
+							<ShortName>1kBullets_player_bullet_impact_01.wav</ShortName>
+							<Path>SFX\1kBullets_player_bullet_impact_01_10C4C929.wem</Path>
+						</File>
+						<File Id="320640458" Language="SFX">
+							<ShortName>1kBullets_player_bullet_impact_05.wav</ShortName>
+							<Path>SFX\1kBullets_player_bullet_impact_05_10C4C929.wem</Path>
+						</File>
+						<File Id="380311867" Language="SFX">
+							<ShortName>1kBullets_player_bullet_impact_04.wav</ShortName>
+							<Path>SFX\1kBullets_player_bullet_impact_04_10C4C929.wem</Path>
+						</File>
+						<File Id="594014691" Language="SFX">
+							<ShortName>1kBullets_player_bullet_impact_02.wav</ShortName>
+							<Path>SFX\1kBullets_player_bullet_impact_02_10C4C929.wem</Path>
+						</File>
+						<File Id="628007852" Language="SFX">
+							<ShortName>1kBullets_player_bullet_impact_03.wav</ShortName>
+							<Path>SFX\1kBullets_player_bullet_impact_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3723058631" Name="player_damage_event" ObjectPath="\Events\FokaiOnly\player_events\player_damage_event" GUID="{9C26E32B-0B06-4CB9-961D-7E495B345288}" DurationType="OneShot" DurationMin="1.6805" DurationMax="2.063792">
+					<IncludedMemoryFiles>
+						<File Id="100337479" Language="SFX">
+							<ShortName>1kBullets_player_damage_02.wav</ShortName>
+							<Path>SFX\1kBullets_player_damage_02_10C4C929.wem</Path>
+						</File>
+						<File Id="200135157" Language="SFX">
+							<ShortName>1kBullets_player_damage_04v2.wav</ShortName>
+							<Path>SFX\1kBullets_player_damage_04v2_10C4C929.wem</Path>
+						</File>
+						<File Id="257651816" Language="SFX">
+							<ShortName>1kBullets_player_damage_04.wav</ShortName>
+							<Path>SFX\1kBullets_player_damage_04_10C4C929.wem</Path>
+						</File>
+						<File Id="800462066" Language="SFX">
+							<ShortName>1kBullets_player_damage_04v3.wav</ShortName>
+							<Path>SFX\1kBullets_player_damage_04v3_10C4C929.wem</Path>
+						</File>
+						<File Id="868864601" Language="SFX">
+							<ShortName>1kBullets_player_damage_01.wav</ShortName>
+							<Path>SFX\1kBullets_player_damage_01_10C4C929.wem</Path>
+						</File>
+						<File Id="968495951" Language="SFX">
+							<ShortName>1kBullets_player_damage_03.wav</ShortName>
+							<Path>SFX\1kBullets_player_damage_03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

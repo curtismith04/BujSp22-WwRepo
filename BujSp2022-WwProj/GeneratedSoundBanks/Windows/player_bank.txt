@@ -1,24 +1,37 @@
 Event	ID	Name			Wwise Object Path	Notes
 	359472815	player_turret_fire_event			\FokaiOnly\player_events\player_turret_fire_event	
 	2257614504	player_ammo_indicator_event			\FokaiOnly\player_events\player_ammo_indicator_event	
+	2957355683	player_bullet_impact_event			\FokaiOnly\player_events\player_bullet_impact_event	
 	2981734192	player_death_event			\FokaiOnly\player_events\player_death_event	
+	3723058631	player_damage_event			\FokaiOnly\player_events\player_damage_event	
 	3929908509	player_rocket_fire_event			\FokaiOnly\player_events\player_rocket_fire_event	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	36758241	player_turret08	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire05_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret08		232476
 	57227068	player_rocket	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_rocket_fire01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_rocket_fire\player_rocket		384064
+	100337479	damage__02	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_damage_02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_damage\damage__02		384064
 	104372612	player_turret09	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire08_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret09		192064
 	134653452	player_death__03	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_death_03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_death\player_death__03		753924
+	195182388	player_bullet_impact__01	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_bullet_impact_01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_bullet_impact\player_bullet_impact__01		181640
+	200135157	damage__05	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_damage_04v2_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_damage\damage__05		384064
+	257651816	damage__04	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_damage_04_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_damage\damage__04		352820
+	320640458	player_bullet_impact__05	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_bullet_impact_05_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_bullet_impact\player_bullet_impact__05		202420
 	351957692	player_death__02	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_death_02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_death\player_death__02		628480
 	352646902	player_turret02	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire06_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret02		192064
 	370049549	player_turret03	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire07_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret03		232476
+	380311867	player_bullet_impact__04	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_bullet_impact_04_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_bullet_impact\player_bullet_impact__04		210944
 	465885322	player_turret06	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret06		201640
+	594014691	player_bullet_impact__02	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_bullet_impact_02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_bullet_impact\player_bullet_impact__02		206828
+	628007852	player_bullet_impact__03	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_bullet_impact_03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_bullet_impact\player_bullet_impact__03		203264
 	722065720	player_turret07	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire04_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret07		201640
+	800462066	damage__06	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_damage_04v3_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_damage\damage__06		322720
 	822420432	player_rocket_02	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_rocket_fire03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_rocket_fire\player_rocket_02		386040
 	862418275	player_turret01	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret01		201640
+	868864601	damage__01	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_damage_01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_damage\damage__01		394316
 	876466571	player_turret04	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire09_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret04		232476
 	909194773	player_death__01	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_death_01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_death\player_death__01		672064
 	957640636	player_turret05	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret05		201640
+	968495951	damage__03	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_damage_03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_damage\damage__03		396312
 	976526503	player_rocket_01	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_rocket_fire02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_rocket_fire\player_rocket_01		384064
 	1038746916	player_ammo_indicator	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_ammo_indicator_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_ammo_indicator		342732
 
