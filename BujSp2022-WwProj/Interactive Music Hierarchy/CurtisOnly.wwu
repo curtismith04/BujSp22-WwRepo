@@ -9637,6 +9637,11 @@
 								<MusicSegment Name="Level1Ambience" ID="{8735A6EB-118C-444B-8F4C-AC416EF8D092}" ShortID="134126721">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="50420"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="RenderEffect0" Type="bool">
 											<ValueList>
