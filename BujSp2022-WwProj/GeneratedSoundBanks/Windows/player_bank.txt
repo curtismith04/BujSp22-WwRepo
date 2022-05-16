@@ -5,20 +5,20 @@ Event	ID	Name			Wwise Object Path	Notes
 	3929908509	player_rocket_fire_event			\FokaiOnly\player_events\player_rocket_fire_event	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	36758241	player_turret08	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire05_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret08		232476
-	57227068	player_rocket	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_rocket_fire01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_rocket_fire\player_rocket		384064
-	104372612	player_turret09	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire08_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret09		192064
-	134653452	player_death__03	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_death_03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_death\player_death__03		753924
-	351957692	player_death__02	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_death_02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_death\player_death__02		628480
-	352646902	player_turret02	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire06_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret02		192064
-	370049549	player_turret03	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire07_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret03		232476
-	465885322	player_turret06	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret06		201640
-	722065720	player_turret07	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire04_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret07		201640
-	822420432	player_rocket_02	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_rocket_fire03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_rocket_fire\player_rocket_02		386040
-	862418275	player_turret01	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret01		201640
-	876466571	player_turret04	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire09_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret04		232476
-	909194773	player_death__01	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_death_01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_death\player_death__01		672064
-	957640636	player_turret05	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret05		201640
-	976526503	player_rocket_01	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_rocket_fire02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_rocket_fire\player_rocket_01		384064
-	1038746916	player_ammo_indicator	A:\Games\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_ammo_indicator_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_ammo_indicator		342732
+	36758241	player_turret08	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire05_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret08		0
+	57227068	player_rocket	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_rocket_fire01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_rocket_fire\player_rocket		0
+	104372612	player_turret09	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire08_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret09		0
+	134653452	player_death__03	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_death_03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_death\player_death__03		0
+	351957692	player_death__02	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_death_02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_death\player_death__02		0
+	352646902	player_turret02	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire06_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret02		0
+	370049549	player_turret03	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire07_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret03		0
+	465885322	player_turret06	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret06		0
+	722065720	player_turret07	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire04_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret07		0
+	822420432	player_rocket_02	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_rocket_fire03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_rocket_fire\player_rocket_02		0
+	862418275	player_turret01	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret01		0
+	876466571	player_turret04	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire09_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret04		0
+	909194773	player_death__01	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_player_death_01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_death\player_death__01		0
+	957640636	player_turret05	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_fire02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_turret_fire\player_turret05		0
+	976526503	player_rocket_01	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\player_rocket_fire02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_rocket_fire\player_rocket_01		0
+	1038746916	player_ammo_indicator	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_ammo_indicator_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Player\player_ammo_indicator		0
 

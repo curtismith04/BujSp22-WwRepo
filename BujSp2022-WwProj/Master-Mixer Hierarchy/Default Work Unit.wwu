@@ -83,6 +83,11 @@
 								</Property>
 								<Property Name="Color" Type="int16" Value="13"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ChildrenList>
 								<Bus Name="Level1" ID="{0624E23A-18E9-43CD-B68F-9C2DFA0F2FAD}">
