@@ -3,8 +3,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	3369318274	enemy_turret_fire_event			\FokaiOnly\enemy_events\enemy_turret_fire_event	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	275684927	enemy_death__02	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_enemy_death_02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Enemy\enemy_death\enemy_death__02		0
-	670336461	enemy_death__03	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_enemy_death_03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Enemy\enemy_death\enemy_death__03		0
-	738841478	enemy_turret_fire	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\enemy_turret_fire_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Enemy\enemy_turret_fire		0
-	894189068	enemy_death__01	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\BujSp2022-WwProj\.cache\Windows\SFX\1kBullets_enemy_death_01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Enemy\enemy_death\enemy_death__01		0
+	321007719	enemy_death__02	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\AudioOriginals\Windows\SFX\sfx\1kBullets_enemy_death_02_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Enemy\enemy_death\enemy_death__02		672064
+	536816918	enemy_death__01	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\AudioOriginals\Windows\SFX\sfx\1kBullets_enemy_death_01_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Enemy\enemy_death\enemy_death__01		672064
+	865260976	enemy_death__03	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\AudioOriginals\Windows\SFX\sfx\1kBullets_enemy_death_03_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Enemy\enemy_death\enemy_death__03		576064
+	1046530605	enemy_turret_fire	D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\AudioOriginals\Windows\SFX\sfx\enemy_turret_fire_10C4C929.wem		\Actor-Mixer Hierarchy\FokaiOnly\Enemy\enemy_turret_fire		384064
 

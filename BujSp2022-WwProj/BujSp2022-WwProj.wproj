@@ -64,7 +64,7 @@
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2021.1|Build=7796|VersionName=v2021.1.7|Config=Release"/>
 			</PropertyList>
 			<MiscSettings>
-				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Cache"><![CDATA[..\AudioOriginals]]></MiscSettingEntry>
 				<MiscSettingEntry Name="Originals"><![CDATA[D:\LooseLeafTea\_GameAudio\2022 Game Jams\BujSp2022\BujSp22-WwRepo\AudioOriginals\]]></MiscSettingEntry>
 			</MiscSettings>
 			<SharedValues>

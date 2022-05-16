@@ -30,7 +30,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="player_turret01" ID="{52737EBF-7F58-4513-8E8C-2952A2ADDD3E}" ShortID="376658427">
+								<Sound Name="player_fire01" ID="{7430FBE6-42A7-45F2-A4AA-9B8AB14DEB59}" ShortID="738674649">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -40,20 +40,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="player_fire01" ID="{C64F18C7-AF3B-4EEF-A798-F5CCFC7AB6BD}">
+										<AudioFileSource Name="player_fire01" ID="{893CF82D-6E12-48C1-A0F8-C9BE7241950C}">
 											<Language>SFX</Language>
-											<AudioFile>player_fire01.wav</AudioFile>
+											<AudioFile>sfx\player_fire01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="862418275"/>
+												<MediaID ID="389834031"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="player_fire01" ID="{C64F18C7-AF3B-4EEF-A798-F5CCFC7AB6BD}" Platform="Linked"/>
+										<ActiveSource Name="player_fire01" ID="{893CF82D-6E12-48C1-A0F8-C9BE7241950C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_turret02" ID="{85BE8FDE-26DB-4B1E-9B90-5BE51B689D36}" ShortID="415489033">
+								<Sound Name="player_fire02" ID="{ED90956C-C6DF-41A7-87EB-1961E3A036ED}" ShortID="973991262">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -63,20 +63,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="player_fire06" ID="{093BB77B-F325-411E-878E-8B816558C10B}">
+										<AudioFileSource Name="player_fire02" ID="{85210280-AC12-4F1D-BFCC-417A91F5B9E8}">
 											<Language>SFX</Language>
-											<AudioFile>player_fire06.wav</AudioFile>
+											<AudioFile>sfx\player_fire02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="352646902"/>
+												<MediaID ID="300528623"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="player_fire06" ID="{093BB77B-F325-411E-878E-8B816558C10B}" Platform="Linked"/>
+										<ActiveSource Name="player_fire02" ID="{85210280-AC12-4F1D-BFCC-417A91F5B9E8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_turret03" ID="{AAC66E58-9656-4909-8B36-D01C0D10AAF0}" ShortID="329064461">
+								<Sound Name="player_fire03" ID="{914A2D68-99CA-442E-BE07-FC6366B26BD8}" ShortID="722687881">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -86,20 +86,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="player_fire07" ID="{B51C0733-760F-43C5-9BA1-2A6F0B49782C}">
+										<AudioFileSource Name="player_fire03" ID="{A2CA46D1-1CC3-4BAD-8C7A-4B9399D74F98}">
 											<Language>SFX</Language>
-											<AudioFile>player_fire07.wav</AudioFile>
+											<AudioFile>sfx\player_fire03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="370049549"/>
+												<MediaID ID="658029769"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="player_fire07" ID="{B51C0733-760F-43C5-9BA1-2A6F0B49782C}" Platform="Linked"/>
+										<ActiveSource Name="player_fire03" ID="{A2CA46D1-1CC3-4BAD-8C7A-4B9399D74F98}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_turret04" ID="{693A3608-EBE6-4E9D-9E23-97BE7D4CABD2}" ShortID="116036656">
+								<Sound Name="player_fire04" ID="{5B6A727B-554D-488B-AAA5-0EA2EAD79422}" ShortID="261304772">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -109,132 +109,132 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="player_fire09" ID="{83783563-A114-47E6-8BEA-AE474E65AE69}">
+										<AudioFileSource Name="player_fire04" ID="{DDEEBD39-3D91-4090-8868-F8CA7CDD50A5}">
 											<Language>SFX</Language>
-											<AudioFile>player_fire09.wav</AudioFile>
+											<AudioFile>sfx\player_fire04.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="876466571"/>
+												<MediaID ID="628108604"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="player_fire09" ID="{83783563-A114-47E6-8BEA-AE474E65AE69}" Platform="Linked"/>
+										<ActiveSource Name="player_fire04" ID="{DDEEBD39-3D91-4090-8868-F8CA7CDD50A5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_turret05" ID="{D0D1088F-5D11-4D73-AA63-4B945796CEB2}" ShortID="397173509">
+								<Sound Name="player_fire05" ID="{448C4352-0775-4541-A0DD-6E8AF4875ADD}" ShortID="551235914">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="player_fire02" ID="{F4BE4E12-BFD0-46B3-9569-E2C43E1E5AD1}">
+										<AudioFileSource Name="player_fire05" ID="{5CDDD751-330A-4F19-833F-B3D4B004892C}">
 											<Language>SFX</Language>
-											<AudioFile>player_fire02.wav</AudioFile>
+											<AudioFile>sfx\player_fire05.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="957640636"/>
+												<MediaID ID="1054265119"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="player_fire02" ID="{F4BE4E12-BFD0-46B3-9569-E2C43E1E5AD1}" Platform="Linked"/>
+										<ActiveSource Name="player_fire05" ID="{5CDDD751-330A-4F19-833F-B3D4B004892C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_turret06" ID="{B5DD6708-0DD9-4E7E-84D0-A5240401AE4F}" ShortID="747776527">
+								<Sound Name="player_fire06" ID="{5A82BCFB-D7DC-4224-949F-109F3EEE5718}" ShortID="364705986">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="player_fire03" ID="{407F529E-57E4-42AF-ADCA-6B4DA6C14AFC}">
+										<AudioFileSource Name="player_fire06" ID="{FB66CF1A-45D2-41ED-9CDA-8FEF2E5EE57C}">
 											<Language>SFX</Language>
-											<AudioFile>player_fire03.wav</AudioFile>
+											<AudioFile>sfx\player_fire06.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="465885322"/>
+												<MediaID ID="339984515"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="player_fire03" ID="{407F529E-57E4-42AF-ADCA-6B4DA6C14AFC}" Platform="Linked"/>
+										<ActiveSource Name="player_fire06" ID="{FB66CF1A-45D2-41ED-9CDA-8FEF2E5EE57C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_turret07" ID="{888C3F41-D262-4A17-A925-F92694DB55BA}" ShortID="857910782">
+								<Sound Name="player_fire07" ID="{6A89ED02-A1DC-4069-AA62-7299FFF365C4}" ShortID="137856631">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="player_fire04" ID="{D5F086B6-0FDA-4023-A83C-9D424241BEA6}">
+										<AudioFileSource Name="player_fire07" ID="{32B4CC81-5BFD-428F-80B8-1E41CC50B6CC}">
 											<Language>SFX</Language>
-											<AudioFile>player_fire04.wav</AudioFile>
+											<AudioFile>sfx\player_fire07.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="722065720"/>
+												<MediaID ID="317604301"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="player_fire04" ID="{D5F086B6-0FDA-4023-A83C-9D424241BEA6}" Platform="Linked"/>
+										<ActiveSource Name="player_fire07" ID="{32B4CC81-5BFD-428F-80B8-1E41CC50B6CC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_turret08" ID="{0041E67E-37C1-46E6-BADE-87C7B810722D}" ShortID="929832704">
+								<Sound Name="player_fire08" ID="{63AD1538-DAD4-47C2-8C99-C3B5BBD9CBC2}" ShortID="698645903">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="player_fire05" ID="{F022D5BF-11E8-4698-B461-8A4532CE5D6A}">
+										<AudioFileSource Name="player_fire08" ID="{BCACD9E2-4CB3-4124-948C-F29C9231F7D4}">
 											<Language>SFX</Language>
-											<AudioFile>player_fire05.wav</AudioFile>
+											<AudioFile>sfx\player_fire08.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="36758241"/>
+												<MediaID ID="41137434"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="player_fire05" ID="{F022D5BF-11E8-4698-B461-8A4532CE5D6A}" Platform="Linked"/>
+										<ActiveSource Name="player_fire08" ID="{BCACD9E2-4CB3-4124-948C-F29C9231F7D4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_turret09" ID="{281BE53E-C894-4789-AF7D-1C555A676E43}" ShortID="554968145">
+								<Sound Name="player_fire09" ID="{1B0FA6D0-BFBF-4F7E-AC26-20086C94CCF5}" ShortID="60863747">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="player_fire08" ID="{111193F3-53AC-4AC9-8959-6DFB0AF64D5E}">
+										<AudioFileSource Name="player_fire09" ID="{78DC42CF-0B5F-4561-A28A-9D766F25567B}">
 											<Language>SFX</Language>
-											<AudioFile>player_fire08.wav</AudioFile>
+											<AudioFile>sfx\player_fire09.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="104372612"/>
+												<MediaID ID="312963298"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="player_fire08" ID="{111193F3-53AC-4AC9-8959-6DFB0AF64D5E}" Platform="Linked"/>
+										<ActiveSource Name="player_fire09" ID="{78DC42CF-0B5F-4561-A28A-9D766F25567B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -257,7 +257,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="player_rocket" ID="{EDD2B2CC-7CFF-4A93-BB99-6A6DBD131676}" ShortID="550439505">
+								<Sound Name="player_rocket_fire01" ID="{DCC5F5BF-0207-4424-8802-F4F81C5DB6DC}" ShortID="1022486858">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -267,20 +267,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="player_rocket_fire01" ID="{8E07BA2C-532F-4661-B1B7-C06DC32D6393}">
+										<AudioFileSource Name="player_rocket_fire01" ID="{DEEF0A20-D26C-4F6B-937C-B895C628A610}">
 											<Language>SFX</Language>
-											<AudioFile>player_rocket_fire01.wav</AudioFile>
+											<AudioFile>sfx\player_rocket_fire01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="57227068"/>
+												<MediaID ID="808527438"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="player_rocket_fire01" ID="{8E07BA2C-532F-4661-B1B7-C06DC32D6393}" Platform="Linked"/>
+										<ActiveSource Name="player_rocket_fire01" ID="{DEEF0A20-D26C-4F6B-937C-B895C628A610}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_rocket_01" ID="{DB4F74C3-E75A-4F9E-8812-7A4C2B96571A}" ShortID="890352088">
+								<Sound Name="player_rocket_fire02" ID="{F86A2A07-3EF5-4F17-884C-A0BF8567B41A}" ShortID="887288457">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -290,20 +290,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="player_rocket_fire02" ID="{A0C208B9-FAF9-4838-85BD-DBDE7801F741}">
+										<AudioFileSource Name="player_rocket_fire02" ID="{042A6E4C-6294-4A2C-B17D-3AC0F845F9E8}">
 											<Language>SFX</Language>
-											<AudioFile>player_rocket_fire02.wav</AudioFile>
+											<AudioFile>sfx\player_rocket_fire02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="976526503"/>
+												<MediaID ID="1010485341"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="player_rocket_fire02" ID="{A0C208B9-FAF9-4838-85BD-DBDE7801F741}" Platform="Linked"/>
+										<ActiveSource Name="player_rocket_fire02" ID="{042A6E4C-6294-4A2C-B17D-3AC0F845F9E8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_rocket_02" ID="{8AFF6BBD-9CF4-4B17-AE2A-F0D947931B7D}" ShortID="1022737607">
+								<Sound Name="player_rocket_fire03" ID="{EEAC5F49-FDCD-4B49-BED0-F9EF6B34B41D}" ShortID="186532737">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -313,17 +313,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="player_rocket_fire03" ID="{B2B289F2-FE85-4C99-B15C-BFCC375E4982}">
+										<AudioFileSource Name="player_rocket_fire03" ID="{C20FA1DC-8F8F-4F11-97D8-C1FBA6BEE29B}">
 											<Language>SFX</Language>
-											<AudioFile>player_rocket_fire03.wav</AudioFile>
+											<AudioFile>sfx\player_rocket_fire03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="822420432"/>
+												<MediaID ID="580799084"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="player_rocket_fire03" ID="{B2B289F2-FE85-4C99-B15C-BFCC375E4982}" Platform="Linked"/>
+										<ActiveSource Name="player_rocket_fire03" ID="{C20FA1DC-8F8F-4F11-97D8-C1FBA6BEE29B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -339,17 +339,17 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="1kBullets_ammo_indicator" ID="{4DD9070A-EB36-4B7A-B42A-FBA7D2EABA98}">
+								<AudioFileSource Name="1kBullets_ammo_indicator_01" ID="{7ACF93AE-168B-45A3-83DD-A81851A139C2}">
 									<Language>SFX</Language>
-									<AudioFile>1kBullets_ammo_indicator.wav</AudioFile>
+									<AudioFile>sfx\1kBullets_ammo_indicator.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1038746916"/>
+										<MediaID ID="489886658"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="1kBullets_ammo_indicator" ID="{4DD9070A-EB36-4B7A-B42A-FBA7D2EABA98}" Platform="Linked"/>
+								<ActiveSource Name="1kBullets_ammo_indicator_01" ID="{7ACF93AE-168B-45A3-83DD-A81851A139C2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="player_bullet_impact" ID="{2D904A39-7EF8-46C8-803D-14B5506504EB}" ShortID="879040107">
@@ -369,119 +369,119 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="player_bullet_impact__01" ID="{4B829777-127E-4F3C-89E7-BD278AF47E19}" ShortID="43932595">
+								<Sound Name="1kBullets_player_bullet_impact_01" ID="{3C3CF0D5-DFA4-4CBD-A630-B9702924258F}" ShortID="841169989">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_bullet_impact_01" ID="{D3DB2907-F6FD-4979-B06D-416B8E4C1A43}">
+										<AudioFileSource Name="1kBullets_player_bullet_impact_01" ID="{4394D5A7-5599-4E54-AC0A-625C88BA31B1}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_bullet_impact_01.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_bullet_impact_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="195182388"/>
+												<MediaID ID="1011737722"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_bullet_impact_01" ID="{D3DB2907-F6FD-4979-B06D-416B8E4C1A43}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_bullet_impact_01" ID="{4394D5A7-5599-4E54-AC0A-625C88BA31B1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_bullet_impact__02" ID="{970C7EB2-F760-4992-8AEA-30E7B583F819}" ShortID="696560158">
+								<Sound Name="1kBullets_player_bullet_impact_02" ID="{3F816CC8-DAE6-4307-844E-0D5417EBB662}" ShortID="116431156">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_bullet_impact_02" ID="{0EF7AB33-BEF2-4556-81A1-A01D88EECA6B}">
+										<AudioFileSource Name="1kBullets_player_bullet_impact_02" ID="{11015F09-4A50-4721-B280-AC229F1E57EF}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_bullet_impact_02.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_bullet_impact_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="594014691"/>
+												<MediaID ID="178986738"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_bullet_impact_02" ID="{0EF7AB33-BEF2-4556-81A1-A01D88EECA6B}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_bullet_impact_02" ID="{11015F09-4A50-4721-B280-AC229F1E57EF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_bullet_impact__03" ID="{88443A35-ADDF-4036-A841-3B2DF0CAC064}" ShortID="83442766">
+								<Sound Name="1kBullets_player_bullet_impact_03" ID="{A73B1D36-C678-4C31-9084-400D63EFFDED}" ShortID="409730035">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_bullet_impact_03" ID="{F31347AE-7C39-40B0-BC20-FA816059B29D}">
+										<AudioFileSource Name="1kBullets_player_bullet_impact_03" ID="{FD5C801C-59CE-4576-AECE-D1B2C892B2D6}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_bullet_impact_03.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_bullet_impact_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="628007852"/>
+												<MediaID ID="650646258"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_bullet_impact_03" ID="{F31347AE-7C39-40B0-BC20-FA816059B29D}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_bullet_impact_03" ID="{FD5C801C-59CE-4576-AECE-D1B2C892B2D6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_bullet_impact__04" ID="{48F85C46-D710-478C-B521-86FF3A7B560D}" ShortID="435385146">
+								<Sound Name="1kBullets_player_bullet_impact_04" ID="{F20CCEB7-1E75-4E46-9396-0C775346FFA6}" ShortID="883697135">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_bullet_impact_04" ID="{FF326F6E-C266-41BA-84FD-4BF7BE4858B6}">
+										<AudioFileSource Name="1kBullets_player_bullet_impact_04" ID="{81782AB5-4387-43FE-9BF1-F1D36186C4CE}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_bullet_impact_04.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_bullet_impact_04.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="380311867"/>
+												<MediaID ID="1069375758"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_bullet_impact_04" ID="{FF326F6E-C266-41BA-84FD-4BF7BE4858B6}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_bullet_impact_04" ID="{81782AB5-4387-43FE-9BF1-F1D36186C4CE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_bullet_impact__05" ID="{46764EDD-4F8D-40E6-943C-CC2B163EB2A2}" ShortID="415285617">
+								<Sound Name="1kBullets_player_bullet_impact_05" ID="{0270564B-D8AD-4397-9FCA-5B4E56365D4C}" ShortID="475515967">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_bullet_impact_05" ID="{FED341C1-8BFF-419E-95BB-C9E7780C6C84}">
+										<AudioFileSource Name="1kBullets_player_bullet_impact_05" ID="{C28ABD3C-B17B-4F17-ADC3-FC1F271B9153}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_bullet_impact_05.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_bullet_impact_05.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="320640458"/>
+												<MediaID ID="684576839"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_bullet_impact_05" ID="{FED341C1-8BFF-419E-95BB-C9E7780C6C84}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_bullet_impact_05" ID="{C28ABD3C-B17B-4F17-ADC3-FC1F271B9153}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -497,73 +497,73 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="player_death__01" ID="{1179EBB1-15EF-4E32-B7A3-F9BFA277329C}" ShortID="336667499">
+								<Sound Name="1kBullets_player_death_01" ID="{7383499B-ABD3-4B34-B02E-53F1871BEF8B}" ShortID="1069858183">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_death_01" ID="{3A4275E3-39A1-4A9C-98EB-26BC0EC283A9}">
+										<AudioFileSource Name="1kBullets_player_death_01" ID="{660126A3-7346-4C5F-814A-E2DAD42AE6EE}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_death_01.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_death_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="909194773"/>
+												<MediaID ID="245257463"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_death_01" ID="{3A4275E3-39A1-4A9C-98EB-26BC0EC283A9}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_death_01" ID="{660126A3-7346-4C5F-814A-E2DAD42AE6EE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_death__02" ID="{A2AF3E89-7104-4C2E-880B-92444825C4A6}" ShortID="26220465">
+								<Sound Name="1kBullets_player_death_02" ID="{2F2933A4-361F-41D6-AFAC-AA6CDBF93425}" ShortID="994556897">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_death_02" ID="{990ECE97-00FC-4A54-86E4-66B3639BB8DF}">
+										<AudioFileSource Name="1kBullets_player_death_02" ID="{E218DF6C-393C-478E-931E-BFFFF11D81DE}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_death_02.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_death_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="351957692"/>
+												<MediaID ID="50812366"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_death_02" ID="{990ECE97-00FC-4A54-86E4-66B3639BB8DF}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_death_02" ID="{E218DF6C-393C-478E-931E-BFFFF11D81DE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="player_death__03" ID="{3E9A90CB-07E0-418B-A64B-F7506741CF75}" ShortID="84642446">
+								<Sound Name="1kBullets_player_death_03" ID="{31576C31-C6EF-404E-8973-ABDE16F701C5}" ShortID="401094850">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{F0D4B649-475E-481B-BDFB-C8484AACFD03}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A6455F5-A94D-4078-BEA1-7E37A052AEC5}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_death_03" ID="{10FBEF28-6869-4AB0-A7C4-D5ACFE28A2CA}">
+										<AudioFileSource Name="1kBullets_player_death_03" ID="{C0860A6F-7F0F-44DC-8EA3-054B62974999}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_death_03.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_death_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="134653452"/>
+												<MediaID ID="564315878"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_death_03" ID="{10FBEF28-6869-4AB0-A7C4-D5ACFE28A2CA}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_death_03" ID="{C0860A6F-7F0F-44DC-8EA3-054B62974999}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -579,7 +579,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="damage__01" ID="{C8CD6BD3-2778-4F0F-B396-A5C88D0ADBC3}" ShortID="954558677">
+								<Sound Name="1kBullets_player_damage_01" ID="{42AC2633-C3E3-46DD-B783-A301BDBAAB98}" ShortID="421617947">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -589,20 +589,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_damage_01" ID="{DCF57E75-29C9-4E56-AA09-D31DC6E488CE}">
+										<AudioFileSource Name="1kBullets_player_damage_01" ID="{6B033AB9-21AA-4E8E-BCD4-48F98944A92E}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_damage_01.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_damage_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="868864601"/>
+												<MediaID ID="402158695"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_damage_01" ID="{DCF57E75-29C9-4E56-AA09-D31DC6E488CE}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_damage_01" ID="{6B033AB9-21AA-4E8E-BCD4-48F98944A92E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="damage__02" ID="{933DE9D2-5375-4594-85E2-1C6D7DE8B3A0}" ShortID="61448765">
+								<Sound Name="1kBullets_player_damage_02" ID="{367D96A1-E39A-45F1-AF05-B2426BB18983}" ShortID="1013765019">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -612,20 +612,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_damage_02" ID="{5BA3F377-B4A7-43CF-86CC-7CFAA853C6A8}">
+										<AudioFileSource Name="1kBullets_player_damage_02" ID="{8497129D-8C6F-45DD-A9CC-6F7F7CBC9F7A}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_damage_02.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_damage_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="100337479"/>
+												<MediaID ID="1042913503"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_damage_02" ID="{5BA3F377-B4A7-43CF-86CC-7CFAA853C6A8}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_damage_02" ID="{8497129D-8C6F-45DD-A9CC-6F7F7CBC9F7A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="damage__03" ID="{35B52798-941C-443B-AC35-AE22E9B0F463}" ShortID="1016761622">
+								<Sound Name="1kBullets_player_damage_03" ID="{4C5C7248-1EE4-48CD-A000-40C6B1D44F54}" ShortID="889334315">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -635,20 +635,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_damage_03" ID="{2310970D-901F-4869-8637-E0DD10200F2A}">
+										<AudioFileSource Name="1kBullets_player_damage_03" ID="{7EA1FB88-5AC8-4E0D-94F3-FD1389C36DD9}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_damage_03.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_damage_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="968495951"/>
+												<MediaID ID="937348302"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_damage_03" ID="{2310970D-901F-4869-8637-E0DD10200F2A}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_damage_03" ID="{7EA1FB88-5AC8-4E0D-94F3-FD1389C36DD9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="damage__04" ID="{861E625F-94E4-410A-9D3B-5997A2CC05EA}" ShortID="421926537">
+								<Sound Name="1kBullets_player_damage_04" ID="{76A6E4BA-2141-4CFB-902D-1F5B3AD11DB0}" ShortID="522470115">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -658,20 +658,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_damage_04" ID="{8D89DD07-9156-4500-8CC1-7B29587D3A86}">
+										<AudioFileSource Name="1kBullets_player_damage_04" ID="{0E8B9F55-8BFC-4AA6-9AFA-0AF3C73B4524}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_damage_04.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_damage_04.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="257651816"/>
+												<MediaID ID="759035471"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_damage_04" ID="{8D89DD07-9156-4500-8CC1-7B29587D3A86}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_damage_04" ID="{0E8B9F55-8BFC-4AA6-9AFA-0AF3C73B4524}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="damage__05" ID="{3F2BB609-4E9C-43D1-A029-D3F5667828B3}" ShortID="457246083">
+								<Sound Name="1kBullets_player_damage_04v2" ID="{DA5C1864-75EB-4E0B-B5E7-EC491156E85E}" ShortID="867699607">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -681,20 +681,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_damage_04v2" ID="{C81054D0-A5E4-47F0-B40C-19B86D92035C}">
+										<AudioFileSource Name="1kBullets_player_damage_04v2" ID="{D63DF289-E3A3-43FF-837E-77369D39E50D}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_damage_04v2.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_damage_04v2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="200135157"/>
+												<MediaID ID="31810969"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_damage_04v2" ID="{C81054D0-A5E4-47F0-B40C-19B86D92035C}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_damage_04v2" ID="{D63DF289-E3A3-43FF-837E-77369D39E50D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="damage__06" ID="{884559FB-6296-4931-A665-16BF314DCAC6}" ShortID="539802766">
+								<Sound Name="1kBullets_player_damage_04v3" ID="{421361EE-5D94-4289-B2B6-EF1DB9D813CD}" ShortID="741402236">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -704,17 +704,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_player_damage_04v3" ID="{729DD7F0-5D62-4FBC-85BA-A118C552A0B5}">
+										<AudioFileSource Name="1kBullets_player_damage_04v3" ID="{B21B2487-D598-4C90-9414-4333B1662AB8}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_player_damage_04v3.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_player_damage_04v3.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="800462066"/>
+												<MediaID ID="859573236"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_player_damage_04v3" ID="{729DD7F0-5D62-4FBC-85BA-A118C552A0B5}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_player_damage_04v3" ID="{B21B2487-D598-4C90-9414-4333B1662AB8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -750,17 +750,17 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="enemy_turret_fire" ID="{01558A5D-5BD7-4F3C-ADDF-DE6217831975}">
+								<AudioFileSource Name="enemy_turret_fire" ID="{DEC2FD3B-CB3A-4A8A-A24C-B1BDD56D05E4}">
 									<Language>SFX</Language>
-									<AudioFile>enemy_turret_fire.wav</AudioFile>
+									<AudioFile>sfx\enemy_turret_fire.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="738841478"/>
+										<MediaID ID="1046530605"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="enemy_turret_fire" ID="{01558A5D-5BD7-4F3C-ADDF-DE6217831975}" Platform="Linked"/>
+								<ActiveSource Name="enemy_turret_fire" ID="{DEC2FD3B-CB3A-4A8A-A24C-B1BDD56D05E4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="enemy_death" ID="{FBB2ECB9-FAD9-446F-9738-27E321140E2B}" ShortID="369542045">
@@ -790,17 +790,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_enemy_death_01" ID="{DB5F079B-0F24-4B36-AF68-C647F36D7BE5}">
+										<AudioFileSource Name="1kBullets_enemy_death_02" ID="{950B50D9-8455-40DF-9C01-ABD77CF9AF42}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_enemy_death_01.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_enemy_death_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="894189068"/>
+												<MediaID ID="536816918"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_enemy_death_01" ID="{DB5F079B-0F24-4B36-AF68-C647F36D7BE5}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_enemy_death_02" ID="{950B50D9-8455-40DF-9C01-ABD77CF9AF42}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="enemy_death__02" ID="{48A7CABD-6EFF-41E1-BAB6-109F2800295E}" ShortID="674215229">
@@ -813,17 +813,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_enemy_death_02" ID="{A0582377-46E8-4C25-9F26-2FAB78DD6A55}">
+										<AudioFileSource Name="1kBullets_enemy_death_01" ID="{4B12B5AB-6742-4343-926B-764817592BDB}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_enemy_death_02.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_enemy_death_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="275684927"/>
+												<MediaID ID="321007719"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_enemy_death_02" ID="{A0582377-46E8-4C25-9F26-2FAB78DD6A55}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_enemy_death_01" ID="{4B12B5AB-6742-4343-926B-764817592BDB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="enemy_death__03" ID="{40B3EB57-45CF-4871-A8A6-73E7AEB8A6B4}" ShortID="763475053">
@@ -836,17 +836,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="1kBullets_enemy_death_03" ID="{1E6A1842-2581-4B37-9BD2-0761A8ADAD58}">
+										<AudioFileSource Name="1kBullets_enemy_death_01" ID="{7011A9E3-E3DD-4583-8AAF-D68B8C1852AC}">
 											<Language>SFX</Language>
-											<AudioFile>1kBullets_enemy_death_03.wav</AudioFile>
+											<AudioFile>sfx\1kBullets_enemy_death_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="670336461"/>
+												<MediaID ID="865260976"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="1kBullets_enemy_death_03" ID="{1E6A1842-2581-4B37-9BD2-0761A8ADAD58}" Platform="Linked"/>
+										<ActiveSource Name="1kBullets_enemy_death_01" ID="{7011A9E3-E3DD-4583-8AAF-D68B8C1852AC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
