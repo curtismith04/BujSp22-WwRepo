@@ -32,6 +32,44 @@
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Level1" ID="{5D8CFD7C-5803-428E-AF7E-05A725F7E1FA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{0FE32C72-CC00-4E6C-83A5-40EAFF5C6F09}" WorkUnitID="{D9374D6C-9EC1-49EF-A5E5-0BCAD338ED1C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="player_turret_fire_event" ID="{684745ED-B60F-4893-815A-3548F1C0DE60}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="player_death_event" ID="{4226B549-66B3-4078-BE23-EBC5F88776B3}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="player_ammo_indicator_event" ID="{5AD5BE05-91D8-4D7F-9F0D-A96C544AFB40}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="player_rocket_fire_event" ID="{A94982B5-B6F3-471C-8530-F04B1675CB7C}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="player_bullet_impact_event" ID="{D466174C-DD81-4F19-A954-83D4DA832D0A}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L1-Combat" ID="{D78C6DE9-B981-4D67-A4A1-E0D34E555606}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="player_damage_event" ID="{9C26E32B-0B06-4CB9-961D-7E495B345288}" WorkUnitID="{250C3B48-8E3F-446E-80A3-7A8A39ACE63B}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L1-Explore" ID="{5F10E471-A2F7-4AB6-9E8F-ACE5A241A8EE}" WorkUnitID="{8276458C-A975-49F3-99FB-1562125FEBC9}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="rtpcSfxVolume" ID="{ACA9C091-24D2-427B-864D-15EB02110344}"/>
@@ -39,7 +77,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="rtpcVisibleEnemies" ID="{8D3E1406-40BD-48BD-B04D-6BC52D7B38BA}"/>
-							<Value>4</Value>
+							<Value>7</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="rtpc_SC_Lv1_Cmbt" ID="{4AD68612-8D2F-4EDC-B9DD-1108F6FDE018}"/>

@@ -17,7 +17,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -724,6 +724,9 @@
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Enemy" ID="{B33DA0DB-E1D8-4356-9832-F3BCB74D3607}" ShortID="266571163">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
@@ -735,6 +738,8 @@
 					<ChildrenList>
 						<Sound Name="enemy_turret_fire" ID="{9E4BEF91-0D44-4D8E-823B-2F482FA30A5A}" ShortID="416406585">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-9</Value>
@@ -742,6 +747,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyFire" ID="{000D10BB-D058-4EC0-8EE4-57C39A5E3400}" WorkUnitID="{C25F6F22-79F4-4FFC-876B-96B077FCE003}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 								</Reference>
@@ -765,13 +773,18 @@
 						</Sound>
 						<RandomSequenceContainer Name="enemy_death" ID="{FBB2ECB9-FAD9-446F-9738-27E321140E2B}" ShortID="369542045">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnemyDropOff" ID="{F581B1B2-7CB8-4B4B-A471-9F8D6975FCC5}" WorkUnitID="{C25F6F22-79F4-4FFC-876B-96B077FCE003}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD0EE6A7-D766-44BE-809C-A0E552CAC928}"/>
 								</Reference>

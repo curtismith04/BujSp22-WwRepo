@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1862894411">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="259925628">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -21,7 +21,7 @@
 				<GameParameter Id="3944938132" Name="rtpc_SC_Lv1_Cmbt" ObjectPath="\Game Parameters\CurtisRTPCs\rtpc_SC_Lv1_Cmbt" GUID="{4AD68612-8D2F-4EDC-B9DD-1108F6FDE018}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2768864193" GUID="{7F9BF77F-AFB8-4DD1-8F9E-73D0AFB89035}" Language="SFX" Hash="3462879111">
+		<SoundBank Id="2768864193" GUID="{7F9BF77F-AFB8-4DD1-8F9E-73D0AFB89035}" Language="SFX" Hash="4223930494">
 			<ObjectPath>\SoundBanks\CurtisBanks\MusicBnk</ObjectPath>
 			<ShortName>MusicBnk</ShortName>
 			<Path>MusicBnk.bnk</Path>
@@ -691,13 +691,6 @@
 								<File Id="793952290"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{3668F57B-1634-4F22-BC36-046617457E04}">
-							<Media>
-								<File Id="612461079"/>
-								<File Id="730117288"/>
-								<File Id="793952290"/>
-							</Media>
-						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
@@ -727,12 +720,12 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3137872592" GUID="{AC65B428-1EA1-4538-BCF1-CBD46A852E75}" Language="SFX" Hash="21423925">
+		<SoundBank Id="3137872592" GUID="{AC65B428-1EA1-4538-BCF1-CBD46A852E75}" Language="SFX" Hash="3335726997">
 			<ObjectPath>\SoundBanks\FokaiBanks\enemy_bank</ObjectPath>
 			<ShortName>enemy_bank</ShortName>
 			<Path>enemy_bank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="545304681" Name="enemy_death_event" ObjectPath="\Events\FokaiOnly\enemy_events\enemy_death_event" GUID="{8DF56685-8881-43CA-A613-6790B18AF397}" DurationType="OneShot" DurationMin="3." DurationMax="3.5">
+				<Event Id="545304681" Name="enemy_death_event" ObjectPath="\Events\FokaiOnly\enemy_events\enemy_death_event" GUID="{8DF56685-8881-43CA-A613-6790B18AF397}" MaxAttenuation="50." DurationType="OneShot" DurationMin="3." DurationMax="3.5">
 					<IncludedMemoryFiles>
 						<File Id="321007719" Language="SFX">
 							<ShortName>sfx\1kBullets_enemy_death_02.wav</ShortName>
@@ -748,7 +741,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3369318274" Name="enemy_turret_fire_event" ObjectPath="\Events\FokaiOnly\enemy_events\enemy_turret_fire_event" GUID="{11D09138-682A-470E-8405-52875712DB11}" DurationType="OneShot" DurationMin="2." DurationMax="2.">
+				<Event Id="3369318274" Name="enemy_turret_fire_event" ObjectPath="\Events\FokaiOnly\enemy_events\enemy_turret_fire_event" GUID="{11D09138-682A-470E-8405-52875712DB11}" MaxAttenuation="100." DurationType="OneShot" DurationMin="2." DurationMax="2.">
 					<IncludedMemoryFiles>
 						<File Id="1046530605" Language="SFX">
 							<ShortName>sfx\enemy_turret_fire.wav</ShortName>
@@ -758,7 +751,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3820128371" GUID="{CF665B23-7111-4C0A-85C1-AD5C42117E9C}" Language="SFX" Hash="2947118698">
+		<SoundBank Id="3820128371" GUID="{CF665B23-7111-4C0A-85C1-AD5C42117E9C}" Language="SFX" Hash="3088607851">
 			<ObjectPath>\SoundBanks\FokaiBanks\player_bank</ObjectPath>
 			<ShortName>player_bank</ShortName>
 			<Path>player_bank.bnk</Path>

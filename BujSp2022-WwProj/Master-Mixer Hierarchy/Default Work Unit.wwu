@@ -40,6 +40,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<ChildrenList>
 								<Bus Name="Enemy" ID="{3F1F571A-2D37-4B4E-8FA5-746545D1B3F6}">
@@ -50,6 +51,17 @@
 								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{D1C7C5C9-6EC7-4E28-A73F-FA2CD2F7BFBF}"/>
+									<DuckingParam>
+										<Volume>-1</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
 						</Bus>
 						<Bus Name="Music" ID="{D1C7C5C9-6EC7-4E28-A73F-FA2CD2F7BFBF}">
 							<PropertyList>
@@ -83,9 +95,10 @@
 								</Property>
 								<Property Name="Color" Type="int16" Value="13"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-17</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -94,6 +107,11 @@
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="8"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
 										<Bus Name="L1_Combat" ID="{90E566AD-E510-4CC2-8131-F14A00BCD5D2}">
@@ -172,13 +190,18 @@
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="4"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
 										<Bus Name="Amb_L1" ID="{821C68D4-739A-4FE6-84FF-B6FAE9C60A8A}">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-5</Value>
+														<Value>-3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -188,7 +211,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-1</Value>
+														<Value>-10</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -201,7 +224,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -217,17 +240,6 @@
 								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
-							<DuckingList>
-								<DuckItem>
-									<BusRef Name="SFX" ID="{E073C7BC-0AC3-49CF-A079-24364E294876}"/>
-									<DuckingParam>
-										<Volume>-6</Volume>
-										<FadeInTime>1</FadeInTime>
-										<FadeOutTime>1</FadeOutTime>
-										<FadeCurve>FadeLinear</FadeCurve>
-									</DuckingParam>
-								</DuckItem>
-							</DuckingList>
 						</Bus>
 					</ChildrenList>
 					<ObjectLists/>
